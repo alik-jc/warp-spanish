@@ -49,16 +49,16 @@ const SECTION_FONT_SIZE: f32 = 16.;
 const SPAN_FONT_SIZE: f32 = 16.;
 const VARIANT_FONT_SIZE: f32 = 13.;
 
-const CANCEL_BUTTON_LABEL: &str = "Close";
-const NEW_ENUM_SPAN: &str = "New enum";
-const EXISTING_ENUM_SPAN: &str = "Edit enum";
-const NAME_PLACEHOLDER_TEXT: &str = "Name";
-const CREATE_BUTTON_LABEL: &str = "Create";
-const SAVE_BUTTON_LABEL: &str = "Save";
-const VARIANT_PLACEHOLDER_TEXT: &str = "Variant";
-const STATIC_LABEL_TEXT: &str = "Variants";
+const CANCEL_BUTTON_LABEL: &str = "Cerrar";
+const NEW_ENUM_SPAN: &str = "Nuevo enum";
+const EXISTING_ENUM_SPAN: &str = "Editar enum";
+const NAME_PLACEHOLDER_TEXT: &str = "Nombre";
+const CREATE_BUTTON_LABEL: &str = "Crear";
+const SAVE_BUTTON_LABEL: &str = "Guardar";
+const VARIANT_PLACEHOLDER_TEXT: &str = "Variante";
+const STATIC_LABEL_TEXT: &str = "Variantes";
 const DYNAMIC_PLACEHOLDER_TEXT: &str =
-    "# Enter a shell command that generates variants, delimited by newlines.\n\ngit branch -a";
+    "# Ingresa un comando de shell que genere variantes delimitadas por saltos de línea.\n\ngit branch -a";
 
 #[derive(Debug, Clone)]
 pub enum EnumCreationDialogAction {

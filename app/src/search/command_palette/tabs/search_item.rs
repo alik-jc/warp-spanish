@@ -60,7 +60,7 @@ impl SearchItemTrait for SearchItem {
         let appearance = Appearance::as_ref(app);
 
         let title_text = Text::new_inline(
-            format!("{} · Tab {}", self.tab.title, self.tab.tab_index),
+            format!("{} · Pestaña {}", self.tab.title, self.tab.tab_index),
             appearance.ui_font_family(),
             appearance.monospace_font_size(),
         )
@@ -105,12 +105,12 @@ impl SearchItemTrait for SearchItem {
     }
 
     fn accessibility_label(&self) -> String {
-        format!("Selected tab: {}.", self.tab.title)
+        format!("Pestaña seleccionada: {}.", self.tab.title)
     }
 
     fn accessibility_help_message(&self) -> Option<String> {
         Some(format!(
-            "Press enter to navigate to tab: {}.",
+            "Presiona Enter para navegar a la pestaña: {}.",
             self.tab.title
         ))
     }

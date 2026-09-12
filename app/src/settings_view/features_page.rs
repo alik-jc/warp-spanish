@@ -3090,17 +3090,17 @@ impl FeaturesPageView {
 
         let categories = vec![
             Category::new("General", general_widgets),
-            Category::new("Session", session_widgets),
-            Category::new("Keys", keys_widgets),
-            Category::new("Text Editing", text_editing_widgets),
-            Category::new("Terminal Input", editor_widgets),
+            Category::new("Sesión", session_widgets),
+            Category::new("Teclas", keys_widgets),
+            Category::new("Edición de texto", text_editing_widgets),
+            Category::new("Entrada de terminal", editor_widgets),
             Category::new("Terminal", terminal_widgets),
-            Category::new("Notifications", notifications_widgets),
+            Category::new("Notificaciones", notifications_widgets),
             Category::new(
-                "Workflows",
+                "Flujos de trabajo",
                 vec![Box::new(WorkflowsInCommandSearch::default())],
             ),
-            Category::new("System", system_widgets),
+            Category::new("Sistema", system_widgets),
         ];
 
         PageType::new_categorized(categories, None)
@@ -4003,7 +4003,7 @@ impl FeaturesPageView {
                 .with_child(
                     appearance
                         .ui_builder()
-                        .span("Autohides on loss of keyboard focus")
+                        .span("Se oculta automáticamente al perder el foco del teclado")
                         .build()
                         .with_margin_left(5.)
                         .finish(),
@@ -5651,12 +5651,12 @@ impl SettingsWidget for GlobalHotkeyWidget {
                 Flex::row()
                     .with_children([
                         ui_builder
-                            .span("Not supported on Wayland. ")
+                            .span("No compatible con Wayland. ")
                             .build()
                             .finish(),
                         ui_builder
                             .link(
-                                "See docs.".to_owned(),
+                                "Ver documentación.".to_owned(),
                                 Some(
                                     "https://docs.warp.dev/terminal/windows/global-hotkey"
                                         .to_owned(),
@@ -6857,7 +6857,7 @@ impl SettingsWidget for TabKeyBehaviorWidget {
             .with_child(
                 appearance
                     .ui_builder()
-                    .span("Tab key behavior")
+                    .span("Comportamiento de la tecla Tab")
                     .with_style(UiComponentStyles {
                         font_size: Some(CONTENT_FONT_SIZE + 1.),
                         ..Default::default()

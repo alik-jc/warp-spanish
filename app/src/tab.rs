@@ -225,7 +225,7 @@ pub(crate) fn reveals_tab_shortcut_hints(ctx: &AppContext) -> bool {
 }
 
 /// Label for the tab right-click menu's "Move to group" submenu parent.
-pub const MOVE_TO_GROUP_LABEL: &str = "Move to group";
+pub const MOVE_TO_GROUP_LABEL: &str = "Mover al grupo";
 
 /// Decides which tab-group context-menu entries apply to a tab, based on its
 /// group membership, whether it is the sole member of that group, and whether
@@ -503,7 +503,7 @@ impl TabData {
                     .is_active_sharer()
                 {
                     menu_items.push(
-                        MenuItemFields::new("Stop sharing")
+                        MenuItemFields::new("Dejar de compartir")
                             .with_on_select_action(WorkspaceAction::StopSharingSessionFromTabMenu {
                                 terminal_view_id: focused_session_view.id(),
                             })
@@ -511,7 +511,7 @@ impl TabData {
                     );
                 } else {
                     menu_items.push(
-                        MenuItemFields::new("Share session")
+                        MenuItemFields::new("Compartir sesión")
                             .with_on_select_action(WorkspaceAction::OpenShareSessionModal(index))
                             .into_item(),
                     );
@@ -521,7 +521,7 @@ impl TabData {
             // Always show an option to stop sharing all when there's at least 1 shared session in the tab.
             if !shared_session_view_ids.is_empty() {
                 menu_items.push(
-                    MenuItemFields::new("Stop sharing all")
+                    MenuItemFields::new("Dejar de compartir todo")
                         .with_on_select_action(WorkspaceAction::StopSharingAllSessionsInTab {
                             pane_group: self.pane_group.downgrade(),
                         })
@@ -553,7 +553,7 @@ impl TabData {
                     Manager::as_ref(ctx).has_session_link(&view.id(), status)
                 });
             menu_items.push(
-                MenuItemFields::new("Copy link")
+                MenuItemFields::new("Copiar enlace")
                     .with_on_select_action(WorkspaceAction::CopySharedSessionLinkFromTab {
                         tab_index: index,
                     })
@@ -688,7 +688,7 @@ impl TabData {
             // TODO add option to show the keybinding once we figure out a nice API to retrieve
             // the actual keybinding (based on the user's preferences etc.)
             menu_items.append(&mut vec![
-                MenuItemFields::new("Rename tab")
+                MenuItemFields::new("Renombrar pestaña")
                     .with_on_select_action(WorkspaceAction::RenameTab(index))
                     .into_item(),
             ]);
@@ -697,7 +697,7 @@ impl TabData {
             let title = self.pane_group.as_ref(ctx).custom_title(ctx);
             if title.is_some() {
                 menu_items.push(
-                    MenuItemFields::new("Reset tab name")
+                    MenuItemFields::new("Restablecer nombre de pestaña")
                         .with_on_select_action(WorkspaceAction::ResetTabName(index))
                         .into_item(),
                 );
@@ -712,9 +712,9 @@ impl TabData {
         if can_move_right {
             menu_items.push(
                 MenuItemFields::new(if uses_vertical_tabs {
-                    "Move Tab Down"
+                    "Mover pestaña abajo"
                 } else {
-                    "Move Tab Right"
+                    "Mover pestaña a la derecha"
                 })
                 .with_on_select_action(WorkspaceAction::MoveTabRight(index))
                 .into_item(),
@@ -723,9 +723,9 @@ impl TabData {
         if can_move_left {
             menu_items.push(
                 MenuItemFields::new(if uses_vertical_tabs {
-                    "Move Tab Up"
+                    "Mover pestaña arriba"
                 } else {
-                    "Move Tab Left"
+                    "Mover pestaña a la izquierda"
                 })
                 .with_on_select_action(WorkspaceAction::MoveTabLeft(index))
                 .into_item(),
@@ -778,14 +778,14 @@ impl TabData {
 
         if ContextFlag::CloseWindow.is_enabled() || tabs_len != 1 {
             menu_items.push(
-                MenuItemFields::new("Close tab")
+                MenuItemFields::new("Cerrar pestaña")
                     .with_on_select_action(WorkspaceAction::CloseTab(index))
                     .into_item(),
             );
         }
         if tabs_len > 1 {
             menu_items.push(
-                MenuItemFields::new("Close other tabs")
+                MenuItemFields::new("Cerrar las demás pestañas")
                     .with_on_select_action(WorkspaceAction::CloseOtherTabs(index))
                     .into_item(),
             );
@@ -794,9 +794,9 @@ impl TabData {
         if not_last_tab {
             menu_items.push(
                 MenuItemFields::new(if uses_vertical_tabs {
-                    "Close Tabs Below"
+                    "Cerrar pestañas inferiores"
                 } else {
-                    "Close Tabs to the Right"
+                    "Cerrar pestañas a la derecha"
                 })
                 .with_on_select_action(WorkspaceAction::CloseTabsRight(index))
                 .into_item(),
@@ -810,7 +810,7 @@ impl TabData {
             return vec![];
         }
         vec![
-            MenuItemFields::new("Save as new config")
+            MenuItemFields::new("Guardar como nueva configuración")
                 .with_on_select_action(WorkspaceAction::SaveCurrentTabAsNewConfig(index))
                 .into_item(),
         ]
@@ -823,9 +823,9 @@ impl TabData {
         }
 
         let (label, action) = if self.pinned {
-            ("Unpin tab", WorkspaceAction::UnpinTab(index))
+            ("Desfijar pestaña", WorkspaceAction::UnpinTab(index))
         } else {
-            ("Pin tab", WorkspaceAction::PinTab(index))
+            ("Fijar pestaña", WorkspaceAction::PinTab(index))
         };
         vec![
             MenuItemFields::new(label)
@@ -856,7 +856,7 @@ impl TabData {
         let mut menu_items = vec![];
         if show_new_group {
             menu_items.push(
-                MenuItemFields::new("New group with tab")
+                MenuItemFields::new("Nuevo grupo con pestaña")
                     .with_on_select_action(WorkspaceAction::NewTabGroupFromTab(index))
                     .into_item(),
             );
@@ -866,7 +866,7 @@ impl TabData {
         }
         if show_remove_from_group {
             menu_items.push(
-                MenuItemFields::new("Remove from group")
+                MenuItemFields::new("Quitar del grupo")
                     .with_on_select_action(WorkspaceAction::RemoveTabFromGroup(index))
                     .into_item(),
             );

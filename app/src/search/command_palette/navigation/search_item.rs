@@ -103,7 +103,7 @@ impl crate::search::item::SearchItem for SearchItem {
 
     fn accessibility_label(&self) -> String {
         format!(
-            "Selected {}. {}.",
+            "Seleccionado {}. {}.",
             self.navigation_data().prompt(),
             self.navigation_data()
                 .command_context()
@@ -113,6 +113,6 @@ impl crate::search::item::SearchItem for SearchItem {
     }
 
     fn accessibility_help_message(&self) -> Option<String> {
-        Some("Press enter to navigate to this session.".into())
+        Some("Presiona Enter para navegar a esta sesión.".into())
     }
 }

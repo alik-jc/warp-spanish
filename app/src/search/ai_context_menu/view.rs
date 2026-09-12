@@ -104,26 +104,26 @@ pub enum AIContextMenuCategory {
 impl AIContextMenuCategory {
     pub fn name(&self) -> &'static str {
         match self {
-            AIContextMenuCategory::CurrentFolderFiles => "Files and folders",
-            AIContextMenuCategory::RepoFiles => "Files and folders",
-            AIContextMenuCategory::Commands => "Commands",
-            AIContextMenuCategory::Blocks => "Blocks",
-            AIContextMenuCategory::Workflows => "Workflows",
-            AIContextMenuCategory::Notebooks => "Notebooks",
-            AIContextMenuCategory::Plans => "Plans",
-            AIContextMenuCategory::Diffs => "Diffs",
-            AIContextMenuCategory::Docs => "Docs",
-            AIContextMenuCategory::Tasks => "Past tasks",
-            AIContextMenuCategory::Rules => "Rules",
-            AIContextMenuCategory::Servers => "Servers and integrations",
+            AIContextMenuCategory::CurrentFolderFiles => "Archivos y carpetas",
+            AIContextMenuCategory::RepoFiles => "Archivos y carpetas",
+            AIContextMenuCategory::Commands => "Comandos",
+            AIContextMenuCategory::Blocks => "Bloques",
+            AIContextMenuCategory::Workflows => "Flujos de trabajo",
+            AIContextMenuCategory::Notebooks => "Cuadernos",
+            AIContextMenuCategory::Plans => "Planes",
+            AIContextMenuCategory::Diffs => "Diferencias",
+            AIContextMenuCategory::Docs => "Documentación",
+            AIContextMenuCategory::Tasks => "Tareas anteriores",
+            AIContextMenuCategory::Rules => "Reglas",
+            AIContextMenuCategory::Servers => "Servidores e integraciones",
             AIContextMenuCategory::Terminal => "Terminal",
             AIContextMenuCategory::Web => "Web",
-            AIContextMenuCategory::RecentDiff => "Most recent diff",
-            AIContextMenuCategory::RecentBlock => "Most recent block",
-            AIContextMenuCategory::Code => "Code",
-            AIContextMenuCategory::DiffSet => "Diff sets",
-            AIContextMenuCategory::Conversations => "Conversations",
-            AIContextMenuCategory::Skills => "Skills",
+            AIContextMenuCategory::RecentDiff => "Diferencia más reciente",
+            AIContextMenuCategory::RecentBlock => "Bloque más reciente",
+            AIContextMenuCategory::Code => "Código",
+            AIContextMenuCategory::DiffSet => "Conjuntos de diferencias",
+            AIContextMenuCategory::Conversations => "Conversaciones",
+            AIContextMenuCategory::Skills => "Habilidades",
         }
     }
 
@@ -1372,7 +1372,7 @@ impl AIContextMenu {
         let theme = appearance.theme();
         Container::new(
             Text::new(
-                "No results found",
+                "No se encontraron resultados",
                 appearance.ui_font_family(),
                 appearance.monospace_font_size(),
             )
@@ -1388,7 +1388,7 @@ impl AIContextMenu {
         let theme = appearance.theme();
         Container::new(
             Text::new(
-                "Loading results...",
+                "Cargando resultados...",
                 appearance.ui_font_family(),
                 appearance.monospace_font_size(),
             )
@@ -1405,7 +1405,7 @@ impl AIContextMenu {
         let theme = appearance.theme();
         Container::new(
             Text::new(
-                "Code symbols indexing...",
+                "Indexando símbolos de código...",
                 appearance.ui_font_family(),
                 appearance.monospace_font_size(),
             )

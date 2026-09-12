@@ -105,7 +105,7 @@ fn render_current_session_pill(
 ) -> Box<dyn Element> {
     let current_session_pill = appearance
         .ui_builder()
-        .span("Current".to_string())
+        .span("Actual".to_string())
         .with_style(UiComponentStyles {
             font_family_id: Some(appearance.monospace_font_family()),
             // The font size is scaled down to make sure the pill fits in the row with its padding.
@@ -337,7 +337,7 @@ impl CommandRenderInfo {
         match command_context {
             CommandContext::RunningCommand { running_command } => CommandRenderInfo {
                 command_text: Some(running_command),
-                hint_text: "Running...".to_string(),
+                hint_text: "Ejecutando...".to_string(),
                 row_spacing: styles::NAVIGATION_PALETTE_COMMAND_ROW_SPACING,
                 hint_margin: styles::NAVIGATION_PALETTE_COMMAND_HINT_MARGIN,
             },
@@ -355,27 +355,27 @@ impl CommandRenderInfo {
                 },
                 command_text: Some(last_run_command),
                 hint_text: match mins_since_completion {
-                    Some(mins) if mins >= 60 => "Completed over 1 hour ago".to_string(),
-                    Some(mins) if mins == 1 => format!("Completed {mins} minute ago"),
-                    Some(mins) => format!("Completed {mins} minutes ago"),
-                    None => "No timestamp found".to_string(),
+                    Some(mins) if mins >= 60 => "Completado hace más de 1 hora".to_string(),
+                    Some(mins) if mins == 1 => format!("Completado hace {mins} minuto"),
+                    Some(mins) => format!("Completado hace {mins} minutos"),
+                    None => "Sin marca de tiempo".to_string(),
                 },
             },
             CommandContext::RunningAIBlock { prompt } => CommandRenderInfo {
                 command_text: Some(prompt),
-                hint_text: "Running...".to_string(),
+                hint_text: "Ejecutando...".to_string(),
                 row_spacing: styles::NAVIGATION_PALETTE_COMMAND_ROW_SPACING,
                 hint_margin: styles::NAVIGATION_PALETTE_COMMAND_HINT_MARGIN,
             },
             CommandContext::LastRunAIBlock { prompt } => CommandRenderInfo {
                 command_text: Some(prompt),
-                hint_text: "Completed".to_string(),
+                hint_text: "Completado".to_string(),
                 row_spacing: styles::NAVIGATION_PALETTE_COMMAND_ROW_SPACING,
                 hint_margin: styles::NAVIGATION_PALETTE_COMMAND_HINT_MARGIN,
             },
             CommandContext::None => CommandRenderInfo {
                 command_text: Some(String::new()),
-                hint_text: "Empty Session".to_string(),
+                hint_text: "Sesión vacía".to_string(),
                 row_spacing: 0.,
                 hint_margin: 0.,
             },

@@ -215,11 +215,11 @@ impl DriveSortOrder {
     /// Returns the text that is used to display the sorting option in the KnowledgeIndex's sorting menu
     pub fn menu_text(&self, index_variant: DriveIndexVariant) -> &str {
         match (self, index_variant) {
-            (DriveSortOrder::ByTimestamp, DriveIndexVariant::MainIndex) => "Last updated",
-            (DriveSortOrder::ByTimestamp, DriveIndexVariant::Trash) => "Last trashed",
-            (DriveSortOrder::AlphabeticalDescending, _) => "A to Z",
-            (DriveSortOrder::AlphabeticalAscending, _) => "Z to A",
-            (DriveSortOrder::ByObjectType, _) => "Type",
+            (DriveSortOrder::ByTimestamp, DriveIndexVariant::MainIndex) => "Última actualización",
+            (DriveSortOrder::ByTimestamp, DriveIndexVariant::Trash) => "Enviado a papelera recientemente",
+            (DriveSortOrder::AlphabeticalDescending, _) => "De la A a la Z",
+            (DriveSortOrder::AlphabeticalAscending, _) => "De la Z a la A",
+            (DriveSortOrder::ByObjectType, _) => "Tipo",
         }
     }
 }

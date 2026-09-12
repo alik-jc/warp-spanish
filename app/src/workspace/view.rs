@@ -8088,13 +8088,13 @@ impl Workspace {
         let pane_name_target = match target {
             VerticalTabsPaneContextMenuTarget::ClickedPane(locator) => PaneNameMenuTarget {
                 locator,
-                rename_label: "Rename pane",
-                reset_label: "Reset pane name",
+                rename_label: "Renombrar panel",
+                reset_label: "Restablecer nombre del panel",
             },
             VerticalTabsPaneContextMenuTarget::ActivePane(locator) => PaneNameMenuTarget {
                 locator,
-                rename_label: "Rename active pane",
-                reset_label: "Reset active pane name",
+                rename_label: "Renombrar panel activo",
+                reset_label: "Restablecer nombre del panel activo",
             },
         };
         let can_move_left = self.can_move_tab(tab_index, TabMovement::Left);

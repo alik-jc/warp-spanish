@@ -2710,7 +2710,7 @@ fn test_session_sharing_context_menu_copy_link_disabled_when_no_session_link() {
 
             let copy_link_item = items.iter().find(|item| {
                 item.fields()
-                    .is_some_and(|f| f.label() == "Copy session sharing link")
+                    .is_some_and(|f| f.label() == "Copiar enlace para compartir sesión")
             });
             assert!(
                 copy_link_item.is_some(),
@@ -2737,7 +2737,7 @@ fn test_session_sharing_context_menu_copy_link_enabled_when_session_link_availab
 
             let copy_link_item = items.iter().find(|item| {
                 item.fields()
-                    .is_some_and(|f| f.label() == "Copy session sharing link")
+                    .is_some_and(|f| f.label() == "Copiar enlace para compartir sesión")
             });
             assert!(
                 copy_link_item.is_some(),

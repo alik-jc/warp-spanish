@@ -31,10 +31,10 @@ impl fmt::Display for Direction {
             f,
             "{}",
             match self {
-                Direction::Down => "Down",
-                Direction::Right => "Right",
-                Direction::Up => "Up",
-                Direction::Left => "Left",
+                Direction::Down => "abajo",
+                Direction::Right => "a la derecha",
+                Direction::Up => "arriba",
+                Direction::Left => "a la izquierda",
             }
         )
     }
@@ -83,12 +83,12 @@ impl NewSessionOption {
 impl NewSessionOption {
     pub(super) fn new(id: NewSessionOptionId, config: NewSessionConfig) -> Self {
         let description = match &config {
-            NewSessionConfig::NewTab(shell) => format!("Create New Tab: {}", shell.short_name()),
+            NewSessionConfig::NewTab(shell) => format!("Crear nueva pestaña: {}", shell.short_name()),
             NewSessionConfig::NewWindow(shell) => {
-                format!("Create New Window: {}", shell.short_name())
+                format!("Crear nueva ventana: {}", shell.short_name())
             }
             NewSessionConfig::Split(direction, shell) => {
-                format!("Split Pane {direction}: {}", shell.short_name())
+                format!("Dividir panel {direction}: {}", shell.short_name())
             }
         };
         Self {
