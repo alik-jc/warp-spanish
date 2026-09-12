@@ -442,34 +442,34 @@ fn effective_default_host(
 
 pub const COMPLETIONS_MENU_WIDTH: f32 = 330.;
 pub const OPEN_COMPLETIONS_KEYBINDING_NAME: &str = "input:open_completion_suggestions";
-pub const INPUT_A11Y_LABEL: &str = "Command Input.";
-pub const INPUT_A11Y_HELPER: &str = "Input your shell command, press enter to execute. Press cmd-up to navigate to output of previously executed commands. Press cmd-l to re-focus command input.";
-pub const AI_COMMAND_SEARCH_HINT_TEXT: &str = "Type '#' for AI command suggestions";
+pub const INPUT_A11Y_LABEL: &str = "Entrada de comando.";
+pub const INPUT_A11Y_HELPER: &str = "Ingresa tu comando de shell, presiona Enter para ejecutar. Presiona cmd-arriba para navegar a la salida de comandos ejecutados previamente. Presiona cmd-l para volver a enfocar la entrada de comandos.";
+pub const AI_COMMAND_SEARCH_HINT_TEXT: &str = "Escribe '#' para sugerencias de comandos de IA";
 
-const AGENT_MODE_AI_DISABLED_AUTODETECTION_DISABLED_HINT_TEXT: &str = "Run commands";
+const AGENT_MODE_AI_DISABLED_AUTODETECTION_DISABLED_HINT_TEXT: &str = "Ejecutar comandos";
 
 // Rotating hint text options for new Agent Mode conversations
 const AGENT_MODE_HINT_OPTIONS: &[&str] = &[
-    "Warp anything e.g. Deploy my React app to Vercel and set up environment variables",
-    "Warp anything e.g. Help me debug why my Python tests are failing in CI",
-    "Warp anything e.g. Set up a new microservice with Docker and create the deployment pipeline",
-    "Warp anything e.g. Find and fix the memory leak in my Node.js application",
-    "Warp anything e.g. Create a backup script for my PostgreSQL database and schedule it",
-    "Warp anything e.g. Help me migrate my data from MySQL to PostgreSQL",
-    "Warp anything e.g. Set up monitoring and alerts for my AWS infrastructure",
-    "Warp anything e.g. Build a REST API for my mobile app using FastAPI",
-    "Warp anything e.g. Help me optimize my SQL queries that are running slowly",
-    "Warp anything e.g. Create a GitHub Actions workflow to automatically deploy on merge",
-    "Warp anything e.g. Set up Redis caching for my web application",
-    "Warp anything e.g. Help me troubleshoot why my Kubernetes pods keep crashing",
-    "Warp anything e.g. Build a data pipeline to process CSV files and load them into BigQuery",
-    "Warp anything e.g. Set up SSL certificates and configure HTTPS for my domain",
-    "Warp anything e.g. Help me refactor this legacy code to use modern design patterns",
-    "Warp anything e.g. Create unit tests for my authentication service",
-    "Warp anything e.g. Set up log aggregation with ELK stack for my distributed system",
-    "Warp anything e.g. Help me implement OAuth2 authentication in my Express.js app",
-    "Warp anything e.g. Optimize my Docker images to reduce build times and size",
-    "Warp anything e.g. Set up A/B testing infrastructure for my web application",
+    "Pide lo que sea a Warp, ej. Despliega mi app React en Vercel y configura variables de entorno",
+    "Pide lo que sea a Warp, ej. Ayúdame a depurar por qué mis pruebas de Python fallan en CI",
+    "Pide lo que sea a Warp, ej. Configura un nuevo microservicio con Docker y crea el flujo de despliegue",
+    "Pide lo que sea a Warp, ej. Encuentra y soluciona la fuga de memoria en mi aplicación Node.js",
+    "Pide lo que sea a Warp, ej. Crea un script de respaldo para mi base de datos PostgreSQL y prográmalo",
+    "Pide lo que sea a Warp, ej. Ayúdame a migrar mis datos de MySQL a PostgreSQL",
+    "Pide lo que sea a Warp, ej. Configura monitoreo y alertas para mi infraestructura en AWS",
+    "Pide lo que sea a Warp, ej. Construye una API REST para mi app móvil usando FastAPI",
+    "Pide lo que sea a Warp, ej. Ayúdame a optimizar mis consultas SQL lentas",
+    "Pide lo que sea a Warp, ej. Crea un flujo de GitHub Actions para desplegar automáticamente al fusionar",
+    "Pide lo que sea a Warp, ej. Configura caché de Redis para mi aplicación web",
+    "Pide lo que sea a Warp, ej. Ayúdame a solucionar fallos recurrentes en mis pods de Kubernetes",
+    "Pide lo que sea a Warp, ej. Construye una canalización de datos para procesar archivos CSV y cargarlos en BigQuery",
+    "Pide lo que sea a Warp, ej. Configura certificados SSL y HTTPS para mi dominio",
+    "Pide lo que sea a Warp, ej. Ayúdame a refactorizar este código heredado usando patrones de diseño modernos",
+    "Pide lo que sea a Warp, ej. Crea pruebas unitarias para mi servicio de autenticación",
+    "Pide lo que sea a Warp, ej. Configura agregación de registros con ELK para mi sistema distribuido",
+    "Pide lo que sea a Warp, ej. Ayúdame a implementar autenticación OAuth2 en mi app Express.js",
+    "Pide lo que sea a Warp, ej. Optimiza mis imágenes de Docker para reducir tiempos de compilación y tamaño",
+    "Pide lo que sea a Warp, ej. Configura infraestructura de pruebas A/B para mi aplicación web",
 ];
 
 fn get_agent_mode_new_conversation_hint_text() -> &'static str {
@@ -490,15 +490,15 @@ fn get_stable_agent_mode_hint_text(cached_hint: &mut Option<&'static str>) -> &'
     }
 }
 
-const AGENT_MODE_AI_ENABLED_STEER_HINT_TEXT_UDI: &str = "Steer the running agent";
+const AGENT_MODE_AI_ENABLED_STEER_HINT_TEXT_UDI: &str = "Guía al agente en ejecución";
 const AGENT_MODE_AI_ENABLED_STEER_HINT_TEXT_CLASSIC: &str =
-    "Steer the running agent, or backspace to exit";
-const AGENT_MODE_AI_ENABLED_QUEUE_HINT_TEXT_UDI: &str = "Queue a follow up for the running agent";
+    "Guía al agente en ejecución, o retroceso para salir";
+const AGENT_MODE_AI_ENABLED_QUEUE_HINT_TEXT_UDI: &str = "Pon en cola un seguimiento para el agente en ejecución";
 const AGENT_MODE_AI_ENABLED_QUEUE_HINT_TEXT_CLASSIC: &str =
-    "Queue a follow up for the running agent, or backspace to exit";
-const AGENT_MODE_AI_ENABLED_FOLLOW_UP_HINT_TEXT_UDI: &str = "Ask a follow up";
+    "Pon en cola un seguimiento para el agente en ejecución, o retroceso para salir";
+const AGENT_MODE_AI_ENABLED_FOLLOW_UP_HINT_TEXT_UDI: &str = "Haz una pregunta de seguimiento";
 const AGENT_MODE_AI_ENABLED_FOLLOW_UP_HINT_TEXT_CLASSIC: &str =
-    "Ask a follow up, or backspace to exit";
+    "Haz una pregunta de seguimiento, o retroceso para salir";
 
 /// Action name for setting input mode to agent mode
 pub const SET_INPUT_MODE_AGENT_ACTION_NAME: &str = "input:set_mode_agent";

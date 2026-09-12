@@ -19,7 +19,7 @@ fn format_usage_uses_credits_unit() {
 
     assert_eq!(
         format_usage(20.0, Some(12345), Some(36.0), UsageDisplayUnit::Credits),
-        "12,345 tokens / 20 credits"
+        "12,345 tokens / 20 créditos"
     );
 }
 
@@ -93,7 +93,7 @@ fn usage_label_uses_dollars_wording_when_unit_is_dollars_and_flag_enabled() {
 
     assert_eq!(
         usage_label(UsageLabelKind::Plain, Some(36.0), UsageDisplayUnit::Dollars),
-        "Usage charged"
+        "Uso cobrado"
     );
     assert_eq!(
         usage_label(
@@ -101,11 +101,11 @@ fn usage_label_uses_dollars_wording_when_unit_is_dollars_and_flag_enabled() {
             Some(36.0),
             UsageDisplayUnit::Dollars
         ),
-        "Usage charged (last response)"
+        "Uso cobrado (última respuesta)"
     );
     assert_eq!(
         usage_label(UsageLabelKind::Total, Some(36.0), UsageDisplayUnit::Dollars),
-        "Usage charged (total)"
+        "Uso cobrado (total)"
     );
     assert_eq!(
         usage_label(
@@ -113,7 +113,7 @@ fn usage_label_uses_dollars_wording_when_unit_is_dollars_and_flag_enabled() {
             Some(36.0),
             UsageDisplayUnit::Dollars
         ),
-        "Usage"
+        "Uso"
     );
 }
 
@@ -123,7 +123,7 @@ fn usage_label_uses_credits_wording_when_unit_is_credits() {
 
     assert_eq!(
         usage_label(UsageLabelKind::Plain, None, UsageDisplayUnit::Credits),
-        "Credits spent"
+        "Créditos gastados"
     );
     assert_eq!(
         usage_label(
@@ -131,11 +131,11 @@ fn usage_label_uses_credits_wording_when_unit_is_credits() {
             None,
             UsageDisplayUnit::Credits
         ),
-        "Credits spent (last response)"
+        "Créditos gastados (última respuesta)"
     );
     assert_eq!(
         usage_label(UsageLabelKind::Total, None, UsageDisplayUnit::Credits),
-        "Credits spent (total)"
+        "Créditos gastados (total)"
     );
     assert_eq!(
         usage_label(
@@ -143,7 +143,7 @@ fn usage_label_uses_credits_wording_when_unit_is_credits() {
             None,
             UsageDisplayUnit::Credits
         ),
-        "Credits used"
+        "Créditos usados"
     );
 }
 
@@ -153,7 +153,7 @@ fn usage_label_uses_credits_wording_when_flag_disabled_even_if_unit_is_dollars()
 
     assert_eq!(
         usage_label(UsageLabelKind::Plain, Some(36.0), UsageDisplayUnit::Dollars),
-        "Credits spent"
+        "Créditos gastados"
     );
 }
 
@@ -163,6 +163,6 @@ fn usage_label_uses_credits_wording_when_dollars_requested_but_cost_unavailable(
 
     assert_eq!(
         usage_label(UsageLabelKind::Plain, None, UsageDisplayUnit::Dollars),
-        "Credits spent"
+        "Créditos gastados"
     );
 }

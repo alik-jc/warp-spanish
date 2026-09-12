@@ -68,7 +68,7 @@ impl ConversationSearchItem {
         Flex::row()
             .with_child(
                 Text::new_inline(
-                    "New conversation",
+                    "Nueva conversación",
                     appearance.ui_font_family(),
                     appearance.monospace_font_size(),
                 )
@@ -89,7 +89,7 @@ impl ConversationSearchItem {
         let appearance = Appearance::as_ref(app);
 
         let action_title = Text::new_inline(
-            "Fork current conversation",
+            "Bifurcar conversación actual",
             appearance.ui_font_family(),
             appearance.monospace_font_size(),
         )
@@ -244,7 +244,7 @@ impl ConversationSearchItem {
 
             let fork_button_tool_tip = appearance
                 .ui_builder()
-                .tool_tip("Fork conversation".to_string())
+                .tool_tip("Bifurcar conversación".to_string())
                 .build();
 
             let fork_button_inner = icon_button(
@@ -417,27 +417,27 @@ impl SearchItem for ConversationSearchItem {
         match &self.action_info {
             ConversationAction::Resume(matched_conversation) => {
                 format!(
-                    "Conversation: {}",
+                    "Conversación: {}",
                     matched_conversation.as_ref().conversation.title()
                 )
             }
             ConversationAction::Fork { title, .. } => {
-                format!("Fork current conversation ({title})")
+                format!("Bifurcar conversación actual ({title})")
             }
-            ConversationAction::New => "New conversation".to_string(),
+            ConversationAction::New => "Nueva conversación".to_string(),
         }
     }
 
     fn accessibility_help_message(&self) -> Option<String> {
         match &self.action_info {
             ConversationAction::Resume(matched_conversation) => Some(format!(
-                "Press enter to navigate to conversation \"{}\".",
+                "Presiona Enter para navegar a la conversación \"{}\".",
                 matched_conversation.as_ref().conversation.title()
             )),
             ConversationAction::Fork { .. } => {
-                Some("Press enter to fork the current conversation into a new conversation.".into())
+                Some("Presiona Enter para bifurcar la conversación actual en una nueva conversación.".into())
             }
-            ConversationAction::New => Some("Press enter to create a new conversation.".into()),
+            ConversationAction::New => Some("Presiona Enter para crear una nueva conversación.".into()),
         }
     }
 }

@@ -1,0 +1,3303 @@
+{
+  "total_occurrences": 471,
+  "total_unique_strings": 368,
+  "strings": [
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/input_suggestions.rs",
+      "line": 914,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Ignore this suggestion",
+      "source_line": ".tool_tip(\"Ignore this suggestion\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 506,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Dejar de compartir",
+      "source_line": "MenuItemFields::new(\"Dejar de compartir\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 514,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Compartir sesión",
+      "source_line": "MenuItemFields::new(\"Compartir sesión\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 524,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Dejar de compartir todo",
+      "source_line": "MenuItemFields::new(\"Dejar de compartir todo\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 556,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar enlace",
+      "source_line": "MenuItemFields::new(\"Copiar enlace\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 691,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Renombrar pestaña",
+      "source_line": "MenuItemFields::new(\"Renombrar pestaña\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 700,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Restablecer nombre de pestaña",
+      "source_line": "MenuItemFields::new(\"Restablecer nombre de pestaña\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 781,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Cerrar pestaña",
+      "source_line": "MenuItemFields::new(\"Cerrar pestaña\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 788,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Cerrar las demás pestañas",
+      "source_line": "MenuItemFields::new(\"Cerrar las demás pestañas\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 813,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Guardar como nueva configuración",
+      "source_line": "MenuItemFields::new(\"Guardar como nueva configuración\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 859,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Nuevo grupo con pestaña",
+      "source_line": "MenuItemFields::new(\"Nuevo grupo con pestaña\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 869,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Quitar del grupo",
+      "source_line": "MenuItemFields::new(\"Quitar del grupo\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab.rs",
+      "line": 1723,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Cloud agent run",
+      "source_line": ".tool_tip(\"Cloud agent run\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/wasm_nux_dialog.rs",
+      "line": 186,
+      "pattern": "ui_builder.text",
+      "text_en": "Warp is the intelligent terminal with AI and your dev team's knowledge built-in.",
+      "source_line": ".span(\"Warp is the intelligent terminal with AI and your dev team's knowledge built-in.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/wasm_nux_dialog.rs",
+      "line": 178,
+      "pattern": "Dialog::new",
+      "text_en": "Download Warp Desktop?",
+      "source_line": "Dialog::new(\"Download Warp Desktop?\".to_string(), None, dialog_styles)"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/ai_document_view.rs",
+      "line": 1331,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/ai_document_view.rs",
+      "line": 1337,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Show in Warp Drive",
+      "source_line": "MenuItemFields::new(\"Show in Warp Drive\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/ai_document_view.rs",
+      "line": 1345,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy as Markdown",
+      "source_line": "MenuItemFields::new(\"Copy as Markdown\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/ai_document_view.rs",
+      "line": 1354,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Save as markdown file",
+      "source_line": "crate::menu::MenuItemFields::new(\"Save as markdown file\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/ai_document_view.rs",
+      "line": 1363,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Attach to active session",
+      "source_line": "MenuItemFields::new(\"Attach to active session\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/ai_document_view.rs",
+      "line": 1371,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy plan ID",
+      "source_line": "MenuItemFields::new(\"Copy plan ID\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/ai_document_view.rs",
+      "line": 672,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Save and auto-sync this plan to your Warp Drive",
+      "source_line": ".tool_tip(\"Save and auto-sync this plan to your Warp Drive\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/conversation_details_panel.rs",
+      "line": 1485,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "View run in Oz web",
+      "source_line": ".tool_tip(\"View run in Oz web\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 578,
+      "pattern": "MenuItemFields::new",
+      "text_en": "All",
+      "source_line": "MenuItemFields::new(\"All\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 616,
+      "pattern": "MenuItemFields::new",
+      "text_en": "All",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"All\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 621,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Last 24 hours",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"Last 24 hours\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 626,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Past 3 days",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"Past 3 days\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 631,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Last week",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"Last week\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 650,
+      "pattern": "MenuItemFields::new",
+      "text_en": "All",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"All\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 655,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Pull Request",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"Pull Request\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 660,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Plan",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"Plan\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 665,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Screenshot",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"Screenshot\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 670,
+      "pattern": "MenuItemFields::new",
+      "text_en": "File",
+      "source_line": "MenuItem::Item(MenuItemFields::new(\"File\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 696,
+      "pattern": "MenuItemFields::new",
+      "text_en": "All",
+      "source_line": "MenuItemFields::new(\"All\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 802,
+      "pattern": "MenuItemFields::new",
+      "text_en": "All",
+      "source_line": "MenuItemFields::new(\"All\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 810,
+      "pattern": "MenuItemFields::new",
+      "text_en": "None",
+      "source_line": "MenuItemFields::new(\"None\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/agent_management/view.rs",
+      "line": 850,
+      "pattern": "MenuItemFields::new",
+      "text_en": "All",
+      "source_line": "MenuItemFields::new(\"All\").with_on_select_action("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/view_util.rs",
+      "line": 224,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Follow up with existing conversation",
+      "source_line": ".tool_tip(\"Follow up with existing conversation\".to_owned())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/cli.rs",
+      "line": 304,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Accept",
+      "source_line": "MenuItemFields::new(\"Accept\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/cli.rs",
+      "line": 308,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Auto-approve",
+      "source_line": "MenuItemFields::new(\"Auto-approve\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/cli.rs",
+      "line": 1874,
+      "pattern": "ui_builder.text",
+      "text_en": "Always allow",
+      "source_line": ".span(\"Always allow\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/view_impl/common.rs",
+      "line": 1017,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Ask the agent to check this command now, skipping its timer.",
+      "source_line": ".tool_tip(\"Ask the agent to check this command now, skipping its timer.\".to_owned())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/view_impl/output.rs",
+      "line": 2273,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Resume conversation",
+      "source_line": ".tool_tip(\"Resume conversation\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/view_impl/output.rs",
+      "line": 3500,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Good response",
+      "source_line": ".tool_tip(\"Good response\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/view_impl/output.rs",
+      "line": 3521,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Bad response",
+      "source_line": ".tool_tip(\"Bad response\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/view_impl/output.rs",
+      "line": 3593,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Continue conversation",
+      "source_line": ".tool_tip(\"Continue conversation\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/block/view_impl/output.rs",
+      "line": 3823,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Show credit usage details",
+      "source_line": ".tool_tip(\"Show credit usage details\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/inline_action/code_diff_view.rs",
+      "line": 2336,
+      "pattern": "ui_builder.text",
+      "text_en": "Don't show me suggested code banners again",
+      "source_line": ".span(\"Don't show me suggested code banners again\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/inline_action/orchestration_controls.rs",
+      "line": 677,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Loading…",
+      "source_line": "MenuItemFields::new(\"Loading…\").with_disabled(true),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/inline_action/requested_command.rs",
+      "line": 2120,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy",
+      "source_line": "let copy_item: MenuItem<RequestedCommandViewAction> = MenuItemFields::new(\"Copy\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/inline_action/requested_command.rs",
+      "line": 2127,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy JSON",
+      "source_line": "MenuItemFields::new(\"Copy JSON\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/inline_action/requested_command.rs",
+      "line": 755,
+      "pattern": "MenuItemFields::new_with_label",
+      "text_en": "Auto-approve",
+      "source_line": "let auto_item = MenuItemFields::new_with_label(\"Auto-approve\", auto_keystroke.as_str())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/blocklist/inline_action/run_agents_card_view.rs",
+      "line": 1240,
+      "pattern": "MenuItemFields::new_with_label",
+      "text_en": "Accept w/o orchestration",
+      "source_line": "let item = MenuItemFields::new_with_label(\"Accept w/o orchestration\", \"\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/facts/view/rule_editor.rs",
+      "line": 336,
+      "pattern": "ui_builder.text",
+      "text_en": "Name",
+      "source_line": "Container::new(appearance.ui_builder().span(\"Name\").build().finish())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai/facts/view/rule_editor.rs",
+      "line": 342,
+      "pattern": "ui_builder.text",
+      "text_en": "Rule",
+      "source_line": "Container::new(appearance.ui_builder().span(\"Rule\").build().finish())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/ai_assistant/panel.rs",
+      "line": 786,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Copy transcript to clipboard",
+      "source_line": ".tool_tip(\"Copy transcript to clipboard\".to_owned())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_body.rs",
+      "line": 332,
+      "pattern": "ui_builder.text",
+      "text_en": "By continuing, you agree to Warp's ",
+      "source_line": ".span(\"By continuing, you agree to Warp's \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_body.rs",
+      "line": 490,
+      "pattern": "ui_builder.text",
+      "text_en": "Already have an account? ",
+      "source_line": ".span(\"Already have an account? \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_body.rs",
+      "line": 518,
+      "pattern": "ui_builder.text",
+      "text_en": "Don't want to sign in right now? ",
+      "source_line": ".span(\"Don't want to sign in right now? \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_body.rs",
+      "line": 563,
+      "pattern": "ui_builder.text",
+      "text_en": "are only available to logged-in users. ",
+      "source_line": ".span(\"are only available to logged-in users. \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_body.rs",
+      "line": 773,
+      "pattern": "ui_builder.text",
+      "text_en": "If your browser hasn't launched, ",
+      "source_line": ".span(\"If your browser hasn't launched, \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_body.rs",
+      "line": 799,
+      "pattern": "ui_builder.text",
+      "text_en": "and open the page manually.",
+      "source_line": ".span(\"and open the page manually.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_shared_helpers.rs",
+      "line": 187,
+      "pattern": "ui_builder.text",
+      "text_en": "Using Warp Offline",
+      "source_line": ".span(\"Using Warp Offline\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/auth_view_shared_helpers.rs",
+      "line": 365,
+      "pattern": "ui_builder.text",
+      "text_en": "Privacy Settings",
+      "source_line": ".span(\"Privacy Settings\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/login_slide.rs",
+      "line": 644,
+      "pattern": "ui_builder.text",
+      "text_en": "By continuing, you agree to Warp's ",
+      "source_line": ".span(\"By continuing, you agree to Warp's \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/login_slide.rs",
+      "line": 895,
+      "pattern": "ui_builder.text",
+      "text_en": "If your browser hasn't launched, ",
+      "source_line": ".span(\"If your browser hasn't launched, \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/login_slide.rs",
+      "line": 916,
+      "pattern": "ui_builder.text",
+      "text_en": " and open",
+      "source_line": ".span(\" and open\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/auth/login_slide.rs",
+      "line": 925,
+      "pattern": "ui_builder.text",
+      "text_en": "the page manually.",
+      "source_line": ".span(\"the page manually.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/local_code_editor.rs",
+      "line": 2119,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Go to definition",
+      "source_line": "MenuItemFields::new(\"Go to definition\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/local_code_editor.rs",
+      "line": 2122,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Find references",
+      "source_line": "MenuItemFields::new(\"Find references\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/view.rs",
+      "line": 2153,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy file path",
+      "source_line": "MenuItemFields::new(\"Copy file path\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/view.rs",
+      "line": 2188,
+      "pattern": "MenuItemFields::new",
+      "text_en": "View Markdown preview",
+      "source_line": "MenuItemFields::new(\"View Markdown preview\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/view.rs",
+      "line": 2135,
+      "pattern": "MenuItemFields::new_with_label",
+      "text_en": "Close saved",
+      "source_line": "MenuItemFields::new_with_label(\"Close saved\", &format!(\"{modifier_keys} U\"))"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/editor/nav_bar.rs",
+      "line": 151,
+      "pattern": "ui_builder.text",
+      "text_en": "Hunk:",
+      "source_line": ".span(\"Hunk:\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2347,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open in new pane",
+      "source_line": "MenuItemFields::new(\"Open in new pane\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2352,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open in new tab",
+      "source_line": "MenuItemFields::new(\"Open in new tab\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2360,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open file",
+      "source_line": "MenuItemFields::new(\"Open file\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2370,
+      "pattern": "MenuItemFields::new",
+      "text_en": "New file",
+      "source_line": "MenuItemFields::new(\"New file\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2379,
+      "pattern": "MenuItemFields::new",
+      "text_en": "cd to directory",
+      "source_line": "MenuItemFields::new(\"cd to directory\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2387,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open in new tab",
+      "source_line": "MenuItemFields::new(\"Open in new tab\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2412,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Rename",
+      "source_line": "MenuItemFields::new(\"Rename\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2417,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Delete",
+      "source_line": "MenuItemFields::new(\"Delete\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2429,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Attach as context",
+      "source_line": "MenuItemFields::new(\"Attach as context\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2439,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy path",
+      "source_line": "MenuItemFields::new(\"Copy path\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code/file_tree/view.rs",
+      "line": 2442,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy relative path",
+      "source_line": "MenuItemFields::new(\"Copy relative path\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 6692,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Commit",
+      "source_line": "MenuItemFields::new(\"Commit\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 6704,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Push",
+      "source_line": "MenuItemFields::new(\"Push\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 6710,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Publish",
+      "source_line": "MenuItemFields::new(\"Publish\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 6735,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Create PR",
+      "source_line": "MenuItemFields::new(\"Create PR\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 6809,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Add diff set as context",
+      "source_line": "MenuItemFields::new(\"Add diff set as context\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 6844,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Add diff set as context",
+      "source_line": "MenuItemFields::new(\"Add diff set as context\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 6869,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Discard all",
+      "source_line": "MenuItemFields::new(\"Discard all\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 7710,
+      "pattern": "HeaderContent::simple",
+      "text_en": "Reviewing code changes",
+      "source_line": "view::HeaderContent::simple(\"Reviewing code changes\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_view.rs",
+      "line": 5523,
+      "pattern": "ui_builder.text",
+      "text_en": "Stash changes",
+      "source_line": "appearance.ui_builder().span(\"Stash changes\").with_style("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/comment_list_view.rs",
+      "line": 1065,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy text",
+      "source_line": "MenuItemFields::new(\"Copy text\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/comment_list_view.rs",
+      "line": 1071,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Edit",
+      "source_line": "let mut edit_item = MenuItemFields::new(\"Edit\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/comment_list_view.rs",
+      "line": 1086,
+      "pattern": "MenuItemFields::new",
+      "text_en": "View in GitHub",
+      "source_line": "MenuItemFields::new(\"View in GitHub\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/comment_list_view.rs",
+      "line": 1096,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Remove",
+      "source_line": "MenuItemFields::new(\"Remove\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/code_review/code_review_header/mod.rs",
+      "line": 436,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Add diff set as context",
+      "source_line": ".tool_tip(\"Add diff set as context\".to_owned())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/context_chips/display_chip.rs",
+      "line": 1406,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Change git branch",
+      "source_line": ".tool_tip(\"Change git branch\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/context_chips/display_chip.rs",
+      "line": 1473,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "View pull request",
+      "source_line": ".tool_tip(\"View pull request\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/context_chips/display_chip.rs",
+      "line": 1814,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Change working directory",
+      "source_line": ".tool_tip(\"Change working directory\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/context_chips/display_chip.rs",
+      "line": 1861,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Working directory",
+      "source_line": ".tool_tip(\"Working directory\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4552,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Rename",
+      "source_line": "MenuItemFields::new(\"Rename\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4571,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4580,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Share",
+      "source_line": "MenuItemFields::new(\"Share\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4602,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Collapse all",
+      "source_line": "MenuItemFields::new(\"Collapse all\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4628,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Retry",
+      "source_line": "MenuItemFields::new(\"Retry\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4638,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Revert to server",
+      "source_line": "MenuItemFields::new(\"Revert to server\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4660,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Attach to active session",
+      "source_line": "MenuItemFields::new(\"Attach to active session\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4721,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy id",
+      "source_line": "MenuItemFields::new(\"Copy id\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4734,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy variables",
+      "source_line": "MenuItemFields::new(\"Copy variables\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4742,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Load in subshell",
+      "source_line": "MenuItemFields::new(\"Load in subshell\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4798,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4808,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Share",
+      "source_line": "MenuItemFields::new(\"Share\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4826,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open on Desktop",
+      "source_line": "MenuItemFields::new(\"Open on Desktop\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4839,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Duplicate",
+      "source_line": "MenuItemFields::new(\"Duplicate\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4854,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Export",
+      "source_line": "MenuItemFields::new(\"Export\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4880,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Trash",
+      "source_line": "MenuItemFields::new(\"Trash\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4901,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open",
+      "source_line": "MenuItemFields::new(\"Open\").with_icon(Icon::Eye)"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4903,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Edit",
+      "source_line": "MenuItemFields::new(\"Edit\").with_icon(Icon::Rename)"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4928,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Retry",
+      "source_line": "MenuItemFields::new(\"Retry\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4938,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Revert to server",
+      "source_line": "MenuItemFields::new(\"Revert to server\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4949,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Restore",
+      "source_line": "MenuItemFields::new(\"Restore\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 4959,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Delete forever",
+      "source_line": "MenuItemFields::new(\"Delete forever\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 5032,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Collapse all",
+      "source_line": "MenuItemFields::new(\"Collapse all\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/index.rs",
+      "line": 2591,
+      "pattern": "ui_builder.text",
+      "text_en": "Trash",
+      "source_line": ".span(\"Trash\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 1050,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Remove",
+      "source_line": "MenuItemFields::new(\"Remove\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 2073,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Only people invited",
+      "source_line": "MenuItemFields::new(\"Only people invited\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 2079,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Anyone with the link",
+      "source_line": "MenuItemFields::new(\"Anyone with the link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 2254,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Only invited teammates",
+      "source_line": "MenuItemFields::new(\"Only invited teammates\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 2260,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Teammates with the link",
+      "source_line": "MenuItemFields::new(\"Teammates with the link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 1835,
+      "pattern": "ui_builder.text",
+      "text_en": "Who has access",
+      "source_line": ".span(\"Who has access\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 2650,
+      "pattern": "ui_builder.text",
+      "text_en": "Share session QR code",
+      "source_line": ".span(\"Share session QR code\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/sharing/dialog/mod.rs",
+      "line": 2660,
+      "pattern": "ui_builder.text",
+      "text_en": "ESC",
+      "source_line": ".span(\"ESC\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/workflows/modal.rs",
+      "line": 678,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy workflow text",
+      "source_line": "MenuItemFields::new(\"Copy workflow text\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/drive/workflows/modal.rs",
+      "line": 687,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Trash",
+      "source_line": "MenuItemFields::new(\"Trash\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/editor/accept_autosuggestion_keybinding_view.rs",
+      "line": 96,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Custom...",
+      "source_line": "MenuItemFields::new(\"Custom...\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/editor/accept_autosuggestion_keybinding_view.rs",
+      "line": 341,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Change keybinding",
+      "source_line": ".autosuggestion_tool_tip(\"Change keybinding\".into())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/editor/autosuggestion_ignore_view.rs",
+      "line": 141,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Ignore this suggestion",
+      "source_line": ".autosuggestion_tool_tip(\"Ignore this suggestion\".into())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/env_vars/view/menus.rs",
+      "line": 375,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/env_vars/view/menus.rs",
+      "line": 385,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Duplicate",
+      "source_line": "MenuItemFields::new(\"Duplicate\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/env_vars/view/menus.rs",
+      "line": 397,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Trash",
+      "source_line": "MenuItemFields::new(\"Trash\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/env_vars/view/menus.rs",
+      "line": 406,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Export",
+      "source_line": "MenuItemFields::new(\"Export\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 131,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Cut",
+      "source_line": "let item = MenuItemFields::new(\"Cut\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 137,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy",
+      "source_line": "let item = MenuItemFields::new(\"Copy\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 143,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Paste",
+      "source_line": "let item = MenuItemFields::new(\"Paste\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 155,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy file path",
+      "source_line": "MenuItemFields::new(\"Copy file path\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 182,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane right",
+      "source_line": "MenuItemFields::new(\"Split pane right\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 191,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane left",
+      "source_line": "MenuItemFields::new(\"Split pane left\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 200,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane down",
+      "source_line": "MenuItemFields::new(\"Split pane down\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 209,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane up",
+      "source_line": "MenuItemFields::new(\"Split pane up\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/context_menu.rs",
+      "line": 240,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Close pane",
+      "source_line": "MenuItemFields::new(\"Close pane\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 1411,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Attach to active session",
+      "source_line": "MenuItemFields::new(\"Attach to active session\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 1421,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 1438,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open on Desktop",
+      "source_line": "MenuItemFields::new(\"Open on Desktop\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 1448,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Duplicate",
+      "source_line": "MenuItemFields::new(\"Duplicate\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 1458,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Export",
+      "source_line": "MenuItemFields::new(\"Export\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 1470,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Trash",
+      "source_line": "MenuItemFields::new(\"Trash\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 1977,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Restore notebook from trash",
+      "source_line": ".tool_tip(\"Restore notebook from trash\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 2092,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Copy notebook contents to your clipboard",
+      "source_line": ".tool_tip(\"Copy notebook contents to your clipboard\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook.rs",
+      "line": 2126,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Refresh notebook",
+      "source_line": ".tool_tip(\"Refresh notebook\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/editor/block_insertion_menu.rs",
+      "line": 100,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Embed",
+      "source_line": "MenuItemFields::new(\"Embed\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/editor/block_insertion_menu.rs",
+      "line": 120,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Divider",
+      "source_line": "MenuItemFields::new(\"Divider\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/editor/block_insertion_menu.rs",
+      "line": 309,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Insert block",
+      "source_line": ".tool_tip(\"Insert block\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/editor/notebook_command.rs",
+      "line": 689,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Raw",
+      "source_line": ".tool_tip(\"Raw\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/editor/notebook_command.rs",
+      "line": 714,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Rendered",
+      "source_line": ".tool_tip(\"Rendered\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/editor/view.rs",
+      "line": 2403,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Copy link",
+      "source_line": "ui_builder.tool_tip(\"Copy link\".to_owned()).build().finish()"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/file/mod.rs",
+      "line": 1185,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Refresh file",
+      "source_line": "MenuItemFields::new(\"Refresh file\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/file/mod.rs",
+      "line": 1195,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open in editor",
+      "source_line": "MenuItemFields::new(\"Open in editor\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/file/mod.rs",
+      "line": 1201,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy file path",
+      "source_line": "MenuItemFields::new(\"Copy file path\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook/details_bar.rs",
+      "line": 170,
+      "pattern": "ui_builder.text",
+      "text_en": "Viewing",
+      "source_line": ".span(\"Viewing\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook/details_bar.rs",
+      "line": 176,
+      "pattern": "ui_builder.text",
+      "text_en": "Editing",
+      "source_line": ".span(\"Editing\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/notebooks/notebook/details_bar.rs",
+      "line": 133,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Sign in to edit",
+      "source_line": ".tool_tip(\"Sign in to edit\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/pane_group/pane/get_started_view.rs",
+      "line": 364,
+      "pattern": "HeaderContent::simple",
+      "text_en": "Get started",
+      "source_line": "view::HeaderContent::simple(\"Get started\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/prompt/editor_modal.rs",
+      "line": 618,
+      "pattern": "ui_builder.text",
+      "text_en": "Same line prompt",
+      "source_line": ".span(\"Same line prompt\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/prompt/editor_modal.rs",
+      "line": 656,
+      "pattern": "ui_builder.text",
+      "text_en": "Separator",
+      "source_line": ".span(\"Separator\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/command_palette/conversations/search_item.rs",
+      "line": 247,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Fork conversation",
+      "source_line": ".tool_tip(\"Fork conversation\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/command_palette/navigation/render.rs",
+      "line": 108,
+      "pattern": "ui_builder.text",
+      "text_en": "Current",
+      "source_line": ".span(\"Current\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/command_search/view.rs",
+      "line": 548,
+      "pattern": "ui_builder.text",
+      "text_en": "Loading...",
+      "source_line": ".span(\"Loading...\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/command_search/view.rs",
+      "line": 682,
+      "pattern": "ui_builder.text",
+      "text_en": "Looks like you're out of credits. ",
+      "source_line": ".span(\"Looks like you're out of credits. \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/command_search/view.rs",
+      "line": 704,
+      "pattern": "ui_builder.text",
+      "text_en": " for more credits.",
+      "source_line": ".span(\" for more credits.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/command_search/view.rs",
+      "line": 731,
+      "pattern": "ui_builder.text",
+      "text_en": "No results found.",
+      "source_line": ".span(\"No results found.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/external_secrets/view.rs",
+      "line": 183,
+      "pattern": "ui_builder.text",
+      "text_en": "No results found.",
+      "source_line": ".span(\"No results found.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/notebook_embedding/view.rs",
+      "line": 203,
+      "pattern": "ui_builder.text",
+      "text_en": "No results found.",
+      "source_line": ".span(\"No results found.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/notebook_embedding/notebooks/notebook_search_item.rs",
+      "line": 104,
+      "pattern": "ui_builder.text",
+      "text_en": "Not visible to other users",
+      "source_line": ".span(\"Not visible to other users\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/search/notebook_embedding/workflows/workflow_search_item.rs",
+      "line": 105,
+      "pattern": "ui_builder.text",
+      "text_en": "Not visible to other users",
+      "source_line": ".span(\"Not visible to other users\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/about_page.rs",
+      "line": 121,
+      "pattern": "ui_builder.text",
+      "text_en": "Copyright 2026 Warp",
+      "source_line": ".span(\"Copyright 2026 Warp\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/agent_profiles_page.rs",
+      "line": 2879,
+      "pattern": "ui_builder.text",
+      "text_en": "Show model picker in prompt",
+      "source_line": ".span(\"Show model picker in prompt\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/ai_shared.rs",
+      "line": 64,
+      "pattern": "ui_builder.text",
+      "text_en": "Toolbar layout",
+      "source_line": ".span(\"Toolbar layout\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 1410,
+      "pattern": "Category::new",
+      "text_en": "Window",
+      "source_line": "categories.push(Category::new(\"Window\", window_settings_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 1434,
+      "pattern": "Category::new",
+      "text_en": "Tools panel",
+      "source_line": "categories.push(Category::new(\"Tools panel\", tools_panel_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 1446,
+      "pattern": "Category::new",
+      "text_en": "Input",
+      "source_line": "categories.push(Category::new(\"Input\", category_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 1463,
+      "pattern": "Category::new",
+      "text_en": "Blocks",
+      "source_line": "categories.push(Category::new(\"Blocks\", block_settings_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 1492,
+      "pattern": "Category::new",
+      "text_en": "Text",
+      "source_line": "categories.push(Category::new(\"Text\", text_settings_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 1541,
+      "pattern": "Category::new",
+      "text_en": "Tabs",
+      "source_line": "categories.push(Category::new(\"Tabs\", tab_settings_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 4197,
+      "pattern": "ui_builder.text",
+      "text_en": "Match terminal",
+      "source_line": ".span(\"Match terminal\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 4366,
+      "pattern": "ui_builder.text",
+      "text_en": "View all available system fonts",
+      "source_line": ".span(\"View all available system fonts\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 4494,
+      "pattern": "ui_builder.text",
+      "text_en": "Notebook font size",
+      "source_line": ".span(\"Notebook font size\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 4520,
+      "pattern": "ui_builder.text",
+      "text_en": "Match terminal",
+      "source_line": ".span(\"Match terminal\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/appearance_page.rs",
+      "line": 4729,
+      "pattern": "ui_builder.text",
+      "text_en": "Cursor type is disabled in Vim mode",
+      "source_line": ".span(\"Cursor type is disabled in Vim mode\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/billing_and_usage_page.rs",
+      "line": 1867,
+      "pattern": "ui_builder.text",
+      "text_en": "Monthly spend limit",
+      "source_line": "ui_builder.span(\"Monthly spend limit\").build().finish(),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/billing_and_usage_page.rs",
+      "line": 2165,
+      "pattern": "ui_builder.text",
+      "text_en": "One-time purchase",
+      "source_line": "ui_builder.span(\"One-time purchase\").build().finish(),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/billing_and_usage_page.rs",
+      "line": 2929,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Sort by",
+      "source_line": "appearance.ui_builder().tool_tip(\"Sort by\".to_string());"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/billing_and_usage_page_v2.rs",
+      "line": 1490,
+      "pattern": "ui_builder.text",
+      "text_en": "Monthly spend limit",
+      "source_line": "ui_builder.span(\"Monthly spend limit\").build().finish(),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/cli_agents_page.rs",
+      "line": 182,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Other",
+      "source_line": "MenuItemFields::new(\"Other\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/cli_agents_page.rs",
+      "line": 687,
+      "pattern": "ui_builder.text",
+      "text_en": "Commands that enable the toolbar",
+      "source_line": ".span(\"Commands that enable the toolbar\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/code_indexing_page.rs",
+      "line": 1069,
+      "pattern": "ui_builder.text",
+      "text_en": "Initialized / indexed folders",
+      "source_line": ".span(\"Initialized / indexed folders\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/code_indexing_page.rs",
+      "line": 1424,
+      "pattern": "ui_builder.text",
+      "text_en": "INDEXING",
+      "source_line": ".span(\"INDEXING\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/code_indexing_page.rs",
+      "line": 1770,
+      "pattern": "ui_builder.text",
+      "text_en": "LSP SERVERS",
+      "source_line": ".span(\"LSP SERVERS\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/environments_page.rs",
+      "line": 2075,
+      "pattern": "HeaderContent::simple",
+      "text_en": "Environments",
+      "source_line": "HeaderContent::simple(\"Environments\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/environments_page.rs",
+      "line": 1940,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Share",
+      "source_line": ".tool_tip(\"Share\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/environments_page.rs",
+      "line": 1976,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Edit",
+      "source_line": ".tool_tip(\"Edit\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3092,
+      "pattern": "Category::new",
+      "text_en": "General",
+      "source_line": "Category::new(\"General\", general_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3093,
+      "pattern": "Category::new",
+      "text_en": "Session",
+      "source_line": "Category::new(\"Session\", session_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3094,
+      "pattern": "Category::new",
+      "text_en": "Keys",
+      "source_line": "Category::new(\"Keys\", keys_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3095,
+      "pattern": "Category::new",
+      "text_en": "Text Editing",
+      "source_line": "Category::new(\"Text Editing\", text_editing_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3096,
+      "pattern": "Category::new",
+      "text_en": "Terminal Input",
+      "source_line": "Category::new(\"Terminal Input\", editor_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3097,
+      "pattern": "Category::new",
+      "text_en": "Terminal",
+      "source_line": "Category::new(\"Terminal\", terminal_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3098,
+      "pattern": "Category::new",
+      "text_en": "Notifications",
+      "source_line": "Category::new(\"Notifications\", notifications_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 3103,
+      "pattern": "Category::new",
+      "text_en": "System",
+      "source_line": "Category::new(\"System\", system_widgets),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 4006,
+      "pattern": "ui_builder.text",
+      "text_en": "Autohides on loss of keyboard focus",
+      "source_line": ".span(\"Autohides on loss of keyboard focus\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 5654,
+      "pattern": "ui_builder.text",
+      "text_en": "Not supported on Wayland. ",
+      "source_line": ".span(\"Not supported on Wayland. \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features_page.rs",
+      "line": 6860,
+      "pattern": "ui_builder.text",
+      "text_en": "Tab key behavior",
+      "source_line": ".span(\"Tab key behavior\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/mod.rs",
+      "line": 1662,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane right",
+      "source_line": "MenuItemFields::new(\"Split pane right\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/mod.rs",
+      "line": 1669,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane left",
+      "source_line": "MenuItemFields::new(\"Split pane left\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/mod.rs",
+      "line": 1676,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane down",
+      "source_line": "MenuItemFields::new(\"Split pane down\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/mod.rs",
+      "line": 1683,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane up",
+      "source_line": "MenuItemFields::new(\"Split pane up\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/mod.rs",
+      "line": 1712,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Close pane",
+      "source_line": "MenuItemFields::new(\"Close pane\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/mod.rs",
+      "line": 2908,
+      "pattern": "HeaderContent::simple",
+      "text_en": "Settings",
+      "source_line": "view::HeaderContent::simple(\"Settings\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/show_blocks_view.rs",
+      "line": 426,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Unshare",
+      "source_line": "MenuItemFields::new(\"Unshare\").with_on_select_action(ShowBlocksAction::Unshare),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/warp_agent_page.rs",
+      "line": 2179,
+      "pattern": "Category::new",
+      "text_en": "Custom Routers",
+      "source_line": "categories.push(Category::new(\"Custom Routers\", custom_router_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/warp_agent_page.rs",
+      "line": 2198,
+      "pattern": "Category::new",
+      "text_en": "Other",
+      "source_line": "categories.push(Category::new(\"Other\", other_widgets));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/features/external_editor.rs",
+      "line": 154,
+      "pattern": "DropdownItem::new",
+      "text_en": "Warp",
+      "source_line": "items.push(DropdownItem::new(\"Warp\", make_action(EditorChoice::Warp)));"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/settings_view/mcp_servers/edit_page.rs",
+      "line": 331,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Log out",
+      "source_line": ".with_tooltip(move || ui_builder.tool_tip(\"Log out\".to_string()).build().finish())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tab_configs/action_sidecar.rs",
+      "line": 138,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Already the default",
+      "source_line": ".tool_tip(\"Already the default\".into())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/input.rs",
+      "line": 2183,
+      "pattern": "BindingDescription::new",
+      "text_en": "Edit Prompt",
+      "source_line": "BindingDescription::new(\"Edit Prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/input.rs",
+      "line": 2184,
+      "pattern": "with_custom_description",
+      "text_en": "Edit Prompt",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Edit Prompt\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/profile_model_selector.rs",
+      "line": 855,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Profiles",
+      "source_line": "fields: MenuItemFields::new(\"Profiles\").with_override_text_color("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/profile_model_selector.rs",
+      "line": 886,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Manage profiles",
+      "source_line": "MenuItemFields::new(\"Manage profiles\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/profile_model_selector.rs",
+      "line": 1107,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Custom models",
+      "source_line": "fields: MenuItemFields::new(\"Custom models\").with_override_text_color("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/share_block_modal.rs",
+      "line": 961,
+      "pattern": "ui_builder.text",
+      "text_en": "Show prompt",
+      "source_line": ".span(\"Show prompt\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/share_block_modal.rs",
+      "line": 1062,
+      "pattern": "ui_builder.text",
+      "text_en": "Redact secrets (API keys, passwords, IP addresses, PII etc.)",
+      "source_line": ".span(\"Redact secrets (API keys, passwords, IP addresses, PII etc.)\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 16979,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy URL",
+      "source_line": "MenuItemFields::new(\"Copy URL\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 16998,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy path",
+      "source_line": "MenuItemFields::new(\"Copy path\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17014,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open in Warp",
+      "source_line": "MenuItemFields::new(\"Open in Warp\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17021,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open in editor",
+      "source_line": "MenuItemFields::new(\"Open in editor\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17038,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open link",
+      "source_line": "MenuItemFields::new(\"Open link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17043,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17068,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy",
+      "source_line": "MenuItemFields::new(\"Copy\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17077,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Insert into input",
+      "source_line": "MenuItemFields::new(\"Insert into input\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17206,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy output",
+      "source_line": "let mut copy_output_menu_item = MenuItemFields::new(\"Copy output\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17217,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy filtered output",
+      "source_line": "MenuItemFields::new(\"Copy filtered output\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17287,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Save as workflow",
+      "source_line": "MenuItemFields::new(\"Save as workflow\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17319,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Ask Warp AI",
+      "source_line": "MenuItemFields::new(\"Ask Warp AI\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17346,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Toggle block filter",
+      "source_line": "MenuItemFields::new(\"Toggle block filter\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17359,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Toggle bookmark",
+      "source_line": "MenuItemFields::new(\"Toggle bookmark\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17507,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Fork from here (dev only)",
+      "source_line": "MenuItemFields::new(\"Fork from here (dev only)\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17525,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Rewind to before here",
+      "source_line": "MenuItemFields::new(\"Rewind to before here\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17604,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Paste",
+      "source_line": "MenuItemFields::new(\"Paste\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17624,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Clear Blocks",
+      "source_line": "MenuItemFields::new(\"Clear Blocks\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17641,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy prompt",
+      "source_line": "MenuItemFields::new(\"Copy prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17651,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy right prompt",
+      "source_line": "MenuItemFields::new(\"Copy right prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17660,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy working directory",
+      "source_line": "MenuItemFields::new(\"Copy working directory\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17670,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy git branch",
+      "source_line": "MenuItemFields::new(\"Copy git branch\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17692,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane right",
+      "source_line": "MenuItemFields::new(\"Split pane right\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17699,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane left",
+      "source_line": "MenuItemFields::new(\"Split pane left\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17706,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane down",
+      "source_line": "MenuItemFields::new(\"Split pane down\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17713,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Split pane up",
+      "source_line": "MenuItemFields::new(\"Split pane up\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17737,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Close pane",
+      "source_line": "MenuItemFields::new(\"Close pane\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17786,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy prompt",
+      "source_line": "let copy_prompt = MenuItemFields::new(\"Copy prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17803,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Edit CLI agent toolbelt",
+      "source_line": "MenuItemFields::new(\"Edit CLI agent toolbelt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17811,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Edit agent toolbelt",
+      "source_line": "MenuItemFields::new(\"Edit agent toolbelt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17819,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Edit prompt",
+      "source_line": "MenuItemFields::new(\"Edit prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17832,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy right prompt",
+      "source_line": "MenuItemFields::new(\"Copy right prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17891,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Cut",
+      "source_line": "MenuItemFields::new(\"Cut\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17896,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy",
+      "source_line": "MenuItemFields::new(\"Copy\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17910,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Select all",
+      "source_line": "MenuItemFields::new(\"Select all\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17924,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Paste",
+      "source_line": "MenuItemFields::new(\"Paste\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17944,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Command search",
+      "source_line": "MenuItemFields::new(\"Command search\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17958,
+      "pattern": "MenuItemFields::new",
+      "text_en": "AI command search",
+      "source_line": "MenuItemFields::new(\"AI command search\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17972,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Ask Warp AI",
+      "source_line": "MenuItemFields::new(\"Ask Warp AI\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 17985,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Save as workflow",
+      "source_line": "MenuItemFields::new(\"Save as workflow\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view.rs",
+      "line": 18149,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy",
+      "source_line": "MenuItemFields::new(\"Copy\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/shared_session/participant_avatar_view.rs",
+      "line": 168,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Make editor",
+      "source_line": "Some(Role::Reader) => items.extend([MenuItemFields::new(\"Make editor\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/shared_session/participant_avatar_view.rs",
+      "line": 174,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Make viewer",
+      "source_line": "Some(Role::Executor) => items.extend([MenuItemFields::new(\"Make viewer\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/shared_session/participant_avatar_view.rs",
+      "line": 588,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Change role",
+      "source_line": ".tool_tip(\"Change role\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 23,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar",
+      "source_line": "MenuItemFields::new(\"Copiar\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 28,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar línea de comandos",
+      "source_line": "MenuItemFields::new(\"Copiar línea de comandos\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 33,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar salida como Markdown",
+      "source_line": "MenuItemFields::new(\"Copiar salida como Markdown\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 44,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar URL",
+      "source_line": "MenuItemFields::new(\"Copiar URL\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 54,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar ruta",
+      "source_line": "MenuItemFields::new(\"Copiar ruta\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 135,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy timestamp",
+      "source_line": "MenuItemFields::new(\"Copy timestamp\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 144,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Save as prompt",
+      "source_line": "MenuItemFields::new(\"Save as prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 156,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy share link",
+      "source_line": "MenuItemFields::new(\"Copy share link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 165,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Share conversation",
+      "source_line": "MenuItemFields::new(\"Share conversation\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 177,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy conversation text",
+      "source_line": "MenuItemFields::new(\"Copy conversation text\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 340,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar enlace para compartir",
+      "source_line": "MenuItemFields::new(\"Copiar enlace para compartir\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 349,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copiar texto de la conversación",
+      "source_line": "MenuItemFields::new(\"Copiar texto de la conversación\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 357,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Bifurcar",
+      "source_line": "MenuItemFields::new(\"Bifurcar\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 452,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Bifurcar desde aquí",
+      "source_line": "MenuItemFields::new(\"Bifurcar desde aquí\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/context_menu.rs",
+      "line": 468,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Rebobinar hasta antes de aquí",
+      "source_line": "MenuItemFields::new(\"Rebobinar hasta antes de aquí\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/init.rs",
+      "line": 754,
+      "pattern": "BindingDescription::new",
+      "text_en": "Attach Selected Block as Agent Context",
+      "source_line": "BindingDescription::new(\"Attach Selected Block as Agent Context\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/init.rs",
+      "line": 775,
+      "pattern": "BindingDescription::new",
+      "text_en": "Attach Selected Text as Agent Context",
+      "source_line": "BindingDescription::new(\"Attach Selected Text as Agent Context\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/init.rs",
+      "line": 1021,
+      "pattern": "BindingDescription::new",
+      "text_en": "Write current codebase index snapshot",
+      "source_line": "BindingDescription::new(\"Write current codebase index snapshot\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/init.rs",
+      "line": 1045,
+      "pattern": "BindingDescription::new",
+      "text_en": "Initiate project for warp",
+      "source_line": "BindingDescription::new(\"Initiate project for warp\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/init.rs",
+      "line": 1052,
+      "pattern": "BindingDescription::new",
+      "text_en": "Add current folder as project",
+      "source_line": "BindingDescription::new(\"Add current folder as project\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/pane_impl.rs",
+      "line": 668,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/pane_impl.rs",
+      "line": 677,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Stop sharing session",
+      "source_line": "MenuItemFields::new(\"Stop sharing session\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/pane_impl.rs",
+      "line": 689,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open on Desktop",
+      "source_line": "MenuItemFields::new(\"Open on Desktop\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/pane_impl.rs",
+      "line": 700,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Share session",
+      "source_line": "MenuItemFields::new(\"Share session\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/pane_impl.rs",
+      "line": 783,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Cancel",
+      "source_line": ".with_tooltip(move || ui_builder.tool_tip(\"Cancel\".to_string()).build().finish())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/ssh_file_upload.rs",
+      "line": 419,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Clear upload",
+      "source_line": ".with_tooltip(move || ui_builder.tool_tip(\"Clear upload\".into()).build().finish())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/ambient_agent/auth_secret_ftux_dropdown.rs",
+      "line": 390,
+      "pattern": "MenuItemFields::new",
+      "text_en": "No secrets found",
+      "source_line": "MenuItemFields::new(\"No secrets found\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/ambient_agent/auth_secret_ftux_dropdown.rs",
+      "line": 403,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Loading…",
+      "source_line": "MenuItemFields::new(\"Loading…\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/ambient_agent/auth_secret_ftux_dropdown.rs",
+      "line": 412,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Unable to load secrets",
+      "source_line": "MenuItemFields::new(\"Unable to load secrets\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+      "line": 659,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Loading…",
+      "source_line": "MenuItemFields::new(\"Loading…\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/ambient_agent/auth_secret_selector.rs",
+      "line": 668,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Unable to load secrets",
+      "source_line": "MenuItemFields::new(\"Unable to load secrets\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/ambient_agent/model_selector.rs",
+      "line": 573,
+      "pattern": "MenuItemFields::new",
+      "text_en": "default",
+      "source_line": "MenuItemFields::new(\"default\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/shared_session/viewer.rs",
+      "line": 64,
+      "pattern": "MenuItemFields::new",
+      "text_en": "View",
+      "source_line": "MenuItemFields::new(\"View\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/shared_session/viewer.rs",
+      "line": 68,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Edit",
+      "source_line": "MenuItemFields::new(\"Edit\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/shared_session/viewer.rs",
+      "line": 79,
+      "pattern": "MenuItemFields::new",
+      "text_en": "View",
+      "source_line": "MenuItemFields::new(\"View\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/shared_session/viewer.rs",
+      "line": 84,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Edit",
+      "source_line": "MenuItemFields::new(\"Edit\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/shared_session/view_impl.rs",
+      "line": 1960,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Share session...",
+      "source_line": "MenuItemFields::new(\"Share session...\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/shared_session/view_impl.rs",
+      "line": 1969,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Stop sharing",
+      "source_line": "MenuItemFields::new(\"Stop sharing\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/terminal/view/shared_session/view_impl.rs",
+      "line": 1979,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy session sharing link",
+      "source_line": "MenuItemFields::new(\"Copy session sharing link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/themes/theme_chooser.rs",
+      "line": 748,
+      "pattern": "ui_builder.text",
+      "text_en": "No matching themes!",
+      "source_line": ".span(\"No matching themes!\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/tips/tip_view.rs",
+      "line": 451,
+      "pattern": "ui_builder.text",
+      "text_en": "Complete!",
+      "source_line": ".span(\"Complete!\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/util/tooltips.rs",
+      "line": 204,
+      "pattern": "ui_builder.text",
+      "text_en": "*Secrets are not sent to Warp's server.",
+      "source_line": ".span(\"*Secrets are not sent to Warp's server.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/view_components/filterable_dropdown.rs",
+      "line": 615,
+      "pattern": "ui_builder.text",
+      "text_en": "No matches found.",
+      "source_line": ".span(\"No matches found.\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 3185,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Copy link",
+      "source_line": "MenuItemFields::new(\"Copy link\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 3197,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Open on Desktop",
+      "source_line": "MenuItemFields::new(\"Open on Desktop\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 3209,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Duplicate",
+      "source_line": "MenuItemFields::new(\"Duplicate\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 3222,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Trash",
+      "source_line": "MenuItemFields::new(\"Trash\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 1922,
+      "pattern": "ui_builder.text",
+      "text_en": "Editing",
+      "source_line": ".span(\"Editing\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 1937,
+      "pattern": "ui_builder.text",
+      "text_en": "Viewing",
+      "source_line": ".span(\"Viewing\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 1957,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Sign in to edit",
+      "source_line": ".tool_tip(\"Sign in to edit\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view.rs",
+      "line": 2871,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Restore workflow from trash",
+      "source_line": ".tool_tip(\"Restore workflow from trash\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view/alias_bar.rs",
+      "line": 433,
+      "pattern": "ui_builder.text",
+      "text_en": "Default",
+      "source_line": ".span(\"Default\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view/argument_editor.rs",
+      "line": 599,
+      "pattern": "ui_builder.text",
+      "text_en": "Fill out the arguments in this workflow and copy it to run in your terminal session",
+      "source_line": ".span(\"Fill out the arguments in this workflow and copy it to run in your terminal session\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view/argument_editor.rs",
+      "line": 835,
+      "pattern": "ui_builder.text",
+      "text_en": "Environment variables",
+      "source_line": ".span(\"Environment variables\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workflows/workflow_view/argument_editor.rs",
+      "line": 585,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Add a workflow argument",
+      "source_line": ".tool_tip(\"Add a workflow argument\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 347,
+      "pattern": "BindingDescription::new",
+      "text_en": "Create New Window",
+      "source_line": "BindingDescription::new(\"Create New Window\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 356,
+      "pattern": "BindingDescription::new",
+      "text_en": "New File",
+      "source_line": "BindingDescription::new(\"New File\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 646,
+      "pattern": "BindingDescription::new",
+      "text_en": "Crear un nuevo cuaderno de equipo",
+      "source_line": "BindingDescription::new(\"Crear un nuevo cuaderno de equipo\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 660,
+      "pattern": "BindingDescription::new",
+      "text_en": "Crear un nuevo cuaderno personal",
+      "source_line": "BindingDescription::new(\"Crear un nuevo cuaderno personal\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 669,
+      "pattern": "BindingDescription::new",
+      "text_en": "Crear un nuevo flujo de trabajo de equipo",
+      "source_line": "BindingDescription::new(\"Crear un nuevo flujo de trabajo de equipo\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 683,
+      "pattern": "BindingDescription::new",
+      "text_en": "Crear un nuevo flujo de trabajo personal",
+      "source_line": "BindingDescription::new(\"Crear un nuevo flujo de trabajo personal\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 692,
+      "pattern": "BindingDescription::new",
+      "text_en": "Crear una nueva carpeta de equipo",
+      "source_line": "BindingDescription::new(\"Crear una nueva carpeta de equipo\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 705,
+      "pattern": "BindingDescription::new",
+      "text_en": "Crear una nueva carpeta personal",
+      "source_line": "BindingDescription::new(\"Crear una nueva carpeta personal\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 713,
+      "pattern": "BindingDescription::new",
+      "text_en": "Crear nueva pestaña",
+      "source_line": "BindingDescription::new(\"Crear nueva pestaña\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 721,
+      "pattern": "BindingDescription::new",
+      "text_en": "Nueva pestaña de terminal",
+      "source_line": "BindingDescription::new(\"Nueva pestaña de terminal\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 731,
+      "pattern": "BindingDescription::new",
+      "text_en": "Nueva pestaña de agente",
+      "source_line": "BindingDescription::new(\"Nueva pestaña de agente\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 741,
+      "pattern": "BindingDescription::new",
+      "text_en": "Nueva pestaña de agente en la nube",
+      "source_line": "BindingDescription::new(\"Nueva pestaña de agente en la nube\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 753,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir panel izquierdo",
+      "source_line": "BindingDescription::new(\"Abrir panel izquierdo\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 760,
+      "pattern": "BindingDescription::new",
+      "text_en": "Alternar revisión de código",
+      "source_line": "BindingDescription::new(\"Alternar revisión de código\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 770,
+      "pattern": "BindingDescription::new",
+      "text_en": "Alternar panel de pestañas verticales",
+      "source_line": "BindingDescription::new(\"Alternar panel de pestañas verticales\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 780,
+      "pattern": "BindingDescription::new",
+      "text_en": "Panel izquierdo: Explorador de proyectos",
+      "source_line": "BindingDescription::new(\"Panel izquierdo: Explorador de proyectos\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 788,
+      "pattern": "BindingDescription::new",
+      "text_en": "Panel izquierdo: Conversaciones del agente",
+      "source_line": "BindingDescription::new(\"Panel izquierdo: Conversaciones del agente\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 797,
+      "pattern": "BindingDescription::new",
+      "text_en": "Panel izquierdo: Búsqueda global",
+      "source_line": "BindingDescription::new(\"Panel izquierdo: Búsqueda global\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 806,
+      "pattern": "BindingDescription::new",
+      "text_en": "Alternar archivos ocultos en el explorador de proyectos",
+      "source_line": "BindingDescription::new(\"Alternar archivos ocultos en el explorador de proyectos\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 815,
+      "pattern": "BindingDescription::new",
+      "text_en": "Panel izquierdo: Warp Drive",
+      "source_line": "BindingDescription::new(\"Panel izquierdo: Warp Drive\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 824,
+      "pattern": "BindingDescription::new",
+      "text_en": "Alternar explorador de proyectos",
+      "source_line": "BindingDescription::new(\"Alternar explorador de proyectos\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 831,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir búsqueda global",
+      "source_line": "BindingDescription::new(\"Abrir búsqueda global\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 841,
+      "pattern": "BindingDescription::new",
+      "text_en": "Alternar Warp Drive",
+      "source_line": "BindingDescription::new(\"Alternar Warp Drive\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 848,
+      "pattern": "BindingDescription::new",
+      "text_en": "Alternar lista de conversaciones del agente",
+      "source_line": "BindingDescription::new(\"Alternar lista de conversaciones del agente\").with_custom_description("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 861,
+      "pattern": "BindingDescription::new",
+      "text_en": "Cerrar panel enfocado",
+      "source_line": "BindingDescription::new(\"Cerrar panel enfocado\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 869,
+      "pattern": "BindingDescription::new",
+      "text_en": "Alternar paleta de comandos",
+      "source_line": "BindingDescription::new(\"Alternar paleta de comandos\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 881,
+      "pattern": "BindingDescription::new",
+      "text_en": "Mover pestaña a la izquierda",
+      "source_line": "BindingDescription::new(\"Mover pestaña a la izquierda\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 895,
+      "pattern": "BindingDescription::new",
+      "text_en": "Mover pestaña a la derecha",
+      "source_line": "BindingDescription::new(\"Mover pestaña a la derecha\").with_dynamic_override(|ctx| {"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1089,
+      "pattern": "BindingDescription::new",
+      "text_en": "Close Window",
+      "source_line": "BindingDescription::new(\"Close Window\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1118,
+      "pattern": "BindingDescription::new",
+      "text_en": "Close tabs to the right",
+      "source_line": "BindingDescription::new(\"Close tabs to the right\").with_dynamic_override(|ctx| {"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1144,
+      "pattern": "BindingDescription::new",
+      "text_en": "Toggle navigation palette",
+      "source_line": "BindingDescription::new(\"Toggle navigation palette\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1346,
+      "pattern": "BindingDescription::new",
+      "text_en": "Create new team environment variables",
+      "source_line": "BindingDescription::new(\"Create new team environment variables\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1363,
+      "pattern": "BindingDescription::new",
+      "text_en": "Create new personal environment variables",
+      "source_line": "BindingDescription::new(\"Create new personal environment variables\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1375,
+      "pattern": "BindingDescription::new",
+      "text_en": "Create a new personal prompt",
+      "source_line": "BindingDescription::new(\"Create a new personal prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1386,
+      "pattern": "BindingDescription::new",
+      "text_en": "Create a new team prompt",
+      "source_line": "BindingDescription::new(\"Create a new team prompt\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1450,
+      "pattern": "BindingDescription::new",
+      "text_en": "Copy current path",
+      "source_line": "BindingDescription::new(\"Copy current path\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1457,
+      "pattern": "BindingDescription::new",
+      "text_en": "Open repository",
+      "source_line": "BindingDescription::new(\"Open repository\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1466,
+      "pattern": "BindingDescription::new",
+      "text_en": "Open AI Rules",
+      "source_line": "BindingDescription::new(\"Open AI Rules\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1478,
+      "pattern": "BindingDescription::new",
+      "text_en": "Open MCP Servers",
+      "source_line": "BindingDescription::new(\"Open MCP Servers\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1533,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración",
+      "source_line": "BindingDescription::new(\"Abrir configuración\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1550,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Apariencia",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Apariencia\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1566,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Bloques compartidos",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Bloques compartidos\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1575,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Atajos de teclado",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Atajos de teclado\").with_custom_description("
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1586,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Acerca de",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Acerca de\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1595,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Equipos",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Equipos\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1604,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Privacidad",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Privacidad\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1611,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Warpify",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Warpify\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1619,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: IA",
+      "source_line": "BindingDescription::new(\"Abrir configuración: IA\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1627,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Facturación y uso",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Facturación y uso\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1634,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Código",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Código\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1641,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Recomendaciones",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Recomendaciones\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1648,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Entornos",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Entornos\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1655,
+      "pattern": "BindingDescription::new",
+      "text_en": "Abrir configuración: Servidores MCP",
+      "source_line": "BindingDescription::new(\"Abrir configuración: Servidores MCP\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1697,
+      "pattern": "BindingDescription::new",
+      "text_en": "Enviar comentarios (abre enlace externo)",
+      "source_line": "BindingDescription::new(\"Enviar comentarios (abre enlace externo)\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 647,
+      "pattern": "with_custom_description",
+      "text_en": "Nuevo cuaderno de equipo",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Nuevo cuaderno de equipo\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 661,
+      "pattern": "with_custom_description",
+      "text_en": "Nuevo cuaderno personal",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Nuevo cuaderno personal\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 670,
+      "pattern": "with_custom_description",
+      "text_en": "Nuevo flujo de trabajo de equipo",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Nuevo flujo de trabajo de equipo\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 684,
+      "pattern": "with_custom_description",
+      "text_en": "Nuevo flujo de trabajo personal",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Nuevo flujo de trabajo personal\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 693,
+      "pattern": "with_custom_description",
+      "text_en": "Nueva carpeta de equipo",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Nueva carpeta de equipo\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 706,
+      "pattern": "with_custom_description",
+      "text_en": "Nueva carpeta personal",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Nueva carpeta personal\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 761,
+      "pattern": "with_custom_description",
+      "text_en": "Alternar revisión de código",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Alternar revisión de código\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 771,
+      "pattern": "with_custom_description",
+      "text_en": "Alternar panel de pestañas verticales",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Alternar panel de pestañas verticales\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 825,
+      "pattern": "with_custom_description",
+      "text_en": "Explorador de proyectos",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Explorador de proyectos\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 832,
+      "pattern": "with_custom_description",
+      "text_en": "Búsqueda global",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Búsqueda global\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 842,
+      "pattern": "with_custom_description",
+      "text_en": "Warp Drive",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Warp Drive\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 862,
+      "pattern": "with_custom_description",
+      "text_en": "Cerrar panel enfocado",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Cerrar panel enfocado\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 870,
+      "pattern": "with_custom_description",
+      "text_en": "Paleta de comandos",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Paleta de comandos\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1090,
+      "pattern": "with_custom_description",
+      "text_en": "Close Window",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Close Window\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1145,
+      "pattern": "with_custom_description",
+      "text_en": "Navigation Palette",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Navigation Palette\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1376,
+      "pattern": "with_custom_description",
+      "text_en": "New Personal Prompt",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"New Personal Prompt\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1387,
+      "pattern": "with_custom_description",
+      "text_en": "New Team Prompt",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"New Team Prompt\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1451,
+      "pattern": "with_custom_description",
+      "text_en": "Copy Current Path",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Copy Current Path\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1458,
+      "pattern": "with_custom_description",
+      "text_en": "Open Repository",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Open Repository\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1467,
+      "pattern": "with_custom_description",
+      "text_en": "Open AI Rules",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Open AI Rules\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1479,
+      "pattern": "with_custom_description",
+      "text_en": "Open MCP Servers",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Open MCP Servers\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1534,
+      "pattern": "with_custom_description",
+      "text_en": "Configuración",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Configuración\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1551,
+      "pattern": "with_custom_description",
+      "text_en": "Apariencia...",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Apariencia...\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1567,
+      "pattern": "with_custom_description",
+      "text_en": "Ver bloques compartidos...",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Ver bloques compartidos...\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1587,
+      "pattern": "with_custom_description",
+      "text_en": "Acerca de Warp",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Acerca de Warp\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1596,
+      "pattern": "with_custom_description",
+      "text_en": "Abrir configuración del equipo",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Abrir configuración del equipo\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/mod.rs",
+      "line": 1612,
+      "pattern": "with_custom_description",
+      "text_en": "Configurar Warpify...",
+      "source_line": ".with_custom_description(bindings::MAC_MENUS_CONTEXT, \"Configurar Warpify...\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6218,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Teams",
+      "source_line": "fields: MenuItemFields::new(\"Teams\"),"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6238,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Browse teams",
+      "source_line": "MenuItemFields::new(\"Browse teams\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6366,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Re-arrange toolbar items",
+      "source_line": "MenuItemFields::new(\"Re-arrange toolbar items\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6873,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Agent",
+      "source_line": "let mut agent_item = MenuItemFields::new(\"Agent\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6889,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Terminal",
+      "source_line": "let mut terminal_item = MenuItemFields::new(\"Terminal\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6926,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Terminal",
+      "source_line": "let mut terminal_item = MenuItemFields::new(\"Terminal\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6943,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Cloud Agent",
+      "source_line": "let mut cloud_item = MenuItemFields::new(\"Cloud Agent\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 6954,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Local Docker Sandbox",
+      "source_line": "let mut docker_item = MenuItemFields::new(\"Local Docker Sandbox\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 7021,
+      "pattern": "MenuItemFields::new",
+      "text_en": "New tab config",
+      "source_line": "MenuItemFields::new(\"New tab config\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 7035,
+      "pattern": "MenuItemFields::new",
+      "text_en": "New tab group",
+      "source_line": "MenuItemFields::new(\"New tab group\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 7046,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Reopen closed session",
+      "source_line": "MenuItemFields::new(\"Reopen closed session\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 8154,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Update Warp manually",
+      "source_line": "MenuItemFields::new(\"Update Warp manually\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9919,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Update and relaunch Warp",
+      "source_line": "MenuItemFields::new(\"Update and relaunch Warp\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9942,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Update Warp manually",
+      "source_line": "MenuItemFields::new(\"Update Warp manually\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9953,
+      "pattern": "MenuItemFields::new",
+      "text_en": "What's new",
+      "source_line": "MenuItemFields::new(\"What's new\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9956,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Settings",
+      "source_line": "MenuItemFields::new(\"Settings\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9959,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Keyboard shortcuts",
+      "source_line": "MenuItemFields::new(\"Keyboard shortcuts\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9963,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Documentation",
+      "source_line": "MenuItemFields::new(\"Documentation\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9966,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Feedback",
+      "source_line": "MenuItemFields::new(\"Feedback\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9973,
+      "pattern": "MenuItemFields::new",
+      "text_en": "View Warp logs",
+      "source_line": "MenuItemFields::new(\"View Warp logs\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9979,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Join our Slack community",
+      "source_line": "MenuItemFields::new(\"Join our Slack community\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 9987,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Sign up",
+      "source_line": "MenuItemFields::new(\"Sign up\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10001,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Billing and usage",
+      "source_line": "MenuItemFields::new(\"Billing and usage\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10009,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Upgrade",
+      "source_line": "MenuItemFields::new(\"Upgrade\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10016,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Invite a friend",
+      "source_line": "MenuItemFields::new(\"Invite a friend\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10023,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Log out",
+      "source_line": "MenuItemFields::new(\"Log out\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10184,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Close all tabs in group",
+      "source_line": "MenuItemFields::new(\"Close all tabs in group\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10190,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Close other tabs",
+      "source_line": "MenuItemFields::new(\"Close other tabs\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10255,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Ungroup tabs",
+      "source_line": "MenuItemFields::new(\"Ungroup tabs\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10258,
+      "pattern": "MenuItemFields::new",
+      "text_en": "New tab in group",
+      "source_line": "MenuItemFields::new(\"New tab in group\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view.rs",
+      "line": 10264,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Rename",
+      "source_line": "MenuItemFields::new(\"Rename\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/left_panel.rs",
+      "line": 1006,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Close panel",
+      "source_line": ".tool_tip(\"Close panel\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/right_panel.rs",
+      "line": 815,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Close panel",
+      "source_line": ".tool_tip(\"Close panel\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/tab_grouping.rs",
+      "line": 467,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Create group from tabs",
+      "source_line": "MenuItemFields::new(\"Create group from tabs\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/tab_grouping.rs",
+      "line": 475,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Remove from group",
+      "source_line": "MenuItemFields::new(\"Remove from group\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/vertical_tabs.rs",
+      "line": 1539,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "View options",
+      "source_line": ".tool_tip(\"View options\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/vertical_tabs.rs",
+      "line": 1624,
+      "pattern": "ui_builder.tooltip",
+      "text_en": "Tab configs",
+      "source_line": ".tool_tip(\"Tab configs\".to_string())"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/conversation_list/view.rs",
+      "line": 1045,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Delete",
+      "source_line": "let mut delete_item = MenuItemFields::new(\"Delete\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/conversation_list/view.rs",
+      "line": 1059,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Share conversation",
+      "source_line": "MenuItemFields::new(\"Share conversation\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/conversation_list/view.rs",
+      "line": 1073,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Fork in new pane",
+      "source_line": "MenuItemFields::new(\"Fork in new pane\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/app/src/workspace/view/conversation_list/view.rs",
+      "line": 1081,
+      "pattern": "MenuItemFields::new",
+      "text_en": "Fork in new tab",
+      "source_line": "MenuItemFields::new(\"Fork in new tab\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/crates/onboarding/src/agent_onboarding_view.rs",
+      "line": 597,
+      "pattern": "ui_builder.text",
+      "text_en": "Plan successfully activated!",
+      "source_line": ".span(\"Plan successfully activated!\")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/crates/onboarding/src/slides/intro_slide.rs",
+      "line": 86,
+      "pattern": "ui_builder.text",
+      "text_en": "Already have an account? ",
+      "source_line": ".span(\"Already have an account? \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/crates/onboarding/src/slides/theme_picker_slide.rs",
+      "line": 561,
+      "pattern": "ui_builder.text",
+      "text_en": "If you'd like to opt out of analytics, you can adjust your ",
+      "source_line": ".span(\"If you'd like to opt out of analytics, you can adjust your \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/crates/onboarding/src/slides/theme_picker_slide.rs",
+      "line": 588,
+      "pattern": "ui_builder.text",
+      "text_en": "By continuing, you agree to Warp's ",
+      "source_line": ".span(\"By continuing, you agree to Warp's \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/crates/onboarding/src/slides/upgrade_auth_prompt.rs",
+      "line": 75,
+      "pattern": "ui_builder.text",
+      "text_en": "If your browser hasn't launched, ",
+      "source_line": ".span(\"If your browser hasn't launched, \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/crates/onboarding/src/slides/upgrade_auth_prompt.rs",
+      "line": 86,
+      "pattern": "ui_builder.text",
+      "text_en": " and open the page manually. ",
+      "source_line": ".span(\" and open the page manually. \")"
+    },
+    {
+      "file": "C:/Users/Alik/Desktop/testjs/warp-spanish/crates/onboarding/src/slides/upgrade_auth_prompt.rs",
+      "line": 94,
+      "pattern": "ui_builder.text",
+      "text_en": " to paste your token from the browser.",
+      "source_line": ".span(\" to paste your token from the browser.\")"
+    }
+  ]
+}

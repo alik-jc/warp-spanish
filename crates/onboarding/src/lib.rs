@@ -28,19 +28,19 @@ pub use callout::{OnboardingCalloutView, OnboardingKeybindings};
 /// Shared by the intention slide's agent card checklist and the login slide's
 /// skip-login confirmation dialog so the two always stay in sync.
 pub const AI_FEATURES: &[&str] = &[
-    "Use frontier and open-weight models with Warp Agent",
-    "Hand off agent work to cloud agents",
-    "Automatically diagnose and fix terminal errors",
-    "Agentic control of long-running commands and TUIs",
-    "Review code diffs and send comments directly to agents",
-    "Remote control for Claude Code, Codex, and other agents",
+    "Usa modelos de frontera y de pesos abiertos con Warp Agent",
+    "Delega trabajo de agentes a agentes en la nube",
+    "Diagnostica y soluciona automáticamente errores de la terminal",
+    "Control agéntico de comandos de larga duración y TUIs",
+    "Revisa diferencias de código y envía comentarios directamente a los agentes",
+    "Control remoto para Claude Code, Codex y otros agentes",
 ];
 
 /// User-facing names of the Warp Drive features enabled when the terminal
 /// intention is selected with Warp Drive turned on. Shared by the login slide's
 /// skip-login confirmation dialog so the list stays in sync with any future
 /// surfaces that need it.
-pub const WARP_DRIVE_FEATURES: &[&str] = &["Warp Drive", "Session Sharing"];
+pub const WARP_DRIVE_FEATURES: &[&str] = &["Warp Drive", "Sesiones compartidas"];
 
 cfg_if::cfg_if! {
     if #[cfg(feature = "bin")] {

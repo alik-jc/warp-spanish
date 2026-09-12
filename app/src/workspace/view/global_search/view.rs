@@ -655,7 +655,7 @@ impl GlobalSearchView {
             };
 
             let mut editor = EditorView::new(options, ctx);
-            editor.set_placeholder_text("Search in files", ctx);
+            editor.set_placeholder_text("Buscar en archivos", ctx);
             editor
         });
 
@@ -2085,7 +2085,7 @@ impl View for GlobalSearchView {
         let appearance = Appearance::as_ref(app);
         let theme = appearance.theme();
 
-        let search_label = Text::new_inline("Search", appearance.ui_font_family(), 14.)
+        let search_label = Text::new_inline("Buscar", appearance.ui_font_family(), 14.)
             .with_color(blended_colors::text_sub(theme, theme.background()))
             .finish();
 
@@ -2139,18 +2139,18 @@ impl View for GlobalSearchView {
             .with_child(query_row);
 
         let files = self.unique_match_count();
-        let file_word = if files == 1 { "file" } else { "files" };
+        let file_word = if files == 1 { "archivo" } else { "archivos" };
 
         let message = if let Some(error) = &self.last_error {
             error.clone()
         } else if self.is_search_in_progress && self.total_match_count == 0 {
-            "Searching…".to_string()
+            "Buscando…".to_string()
         } else if !self.is_search_in_progress && self.total_match_count == 0 {
-            "No results found. Review your gitignore files.".to_string()
+            "No se encontraron resultados. Revisa tus archivos gitignore.".to_string()
         } else {
             match self.total_match_count {
-                1 => format!("1 result in {files} {file_word}"),
-                n => format!("{n} results in {files} {file_word}"),
+                1 => format!("1 resultado en {files} {file_word}"),
+                n => format!("{n} resultados en {files} {file_word}"),
             }
         };
 
@@ -2323,8 +2323,8 @@ impl GlobalSearchView {
     fn render_pre_search_state(&self, app: &AppContext) -> Box<dyn Element> {
         self.render_zero_state(
             Icon::Search,
-            "Global search",
-            "Search in files across your current directories.",
+            "Búsqueda global",
+            "Busca en archivos de tus directorios actuales.",
             app,
         )
     }
@@ -2332,8 +2332,8 @@ impl GlobalSearchView {
     fn render_unavailable_state(&self, app: &AppContext) -> Box<dyn Element> {
         self.render_zero_state(
             Icon::AlertTriangle,
-            "Global search unavailable",
-            "Global search requires access to your local workspace. Open a new session or navigate to an active session to view.",
+            "Búsqueda global no disponible",
+            "La búsqueda global requiere acceso a tu espacio de trabajo local. Abre una nueva sesión o navega a una sesión activa para ver.",
             app,
         )
     }
@@ -2341,16 +2341,16 @@ impl GlobalSearchView {
     fn render_remote_state(&self, app: &AppContext) -> Box<dyn Element> {
         self.render_zero_state(
             Icon::AlertTriangle,
-            "Global search unavailable",
-            "Global search isn't available for this remote session.",
+            "Búsqueda global no disponible",
+            "La búsqueda global no está disponible para esta sesión remota.",
             app,
         )
     }
     fn render_remote_loading_state(&self, app: &AppContext) -> Box<dyn Element> {
         self.render_zero_state(
             Icon::Loading,
-            "Connecting to remote session",
-            "Global search will be available once the connection is ready.",
+            "Conectando a la sesión remota",
+            "La búsqueda global estará disponible en cuanto la conexión esté lista.",
             app,
         )
     }
@@ -2358,8 +2358,8 @@ impl GlobalSearchView {
     fn render_unsupported_session_state(&self, app: &AppContext) -> Box<dyn Element> {
         self.render_zero_state(
             Icon::AlertTriangle,
-            "Global search unavailable",
-            "Global search doesn't currently work in Git Bash or WSL.",
+            "Búsqueda global no disponible",
+            "La búsqueda global actualmente no funciona en Git Bash ni WSL.",
             app,
         )
     }

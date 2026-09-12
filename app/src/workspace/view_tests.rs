@@ -2929,11 +2929,11 @@ fn test_tab_context_menu_share_session_items() {
                 workspace.tabs[1].menu_items(1, 3, &workspace.tab_groups, false, true, true, ctx);
             assert!(
                 items[0].is_approximately_same_item_as(
-                    &MenuItemFields::new("Stop sharing").into_item()
+                    &MenuItemFields::new("Dejar de compartir").into_item()
                 )
             );
             assert!(items[1].is_approximately_same_item_as(
-                &MenuItemFields::new("Stop sharing all").into_item()
+                &MenuItemFields::new("Dejar de compartir todo").into_item()
             ));
         });
 

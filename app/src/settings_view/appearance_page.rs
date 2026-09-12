@@ -1407,7 +1407,7 @@ impl AppearanceSettingsPageView {
         }
 
         if !window_settings_widgets.is_empty() {
-            categories.push(Category::new("Window", window_settings_widgets));
+            categories.push(Category::new("Ventana", window_settings_widgets));
         }
 
         // Tools panel tab visibility toggles. These control which of the four
@@ -1431,7 +1431,7 @@ impl AppearanceSettingsPageView {
         }
         tools_panel_widgets.push(Box::new(ToolsPanelWarpDriveWidget::default()));
         if !tools_panel_widgets.is_empty() {
-            categories.push(Category::new("Tools panel", tools_panel_widgets));
+            categories.push(Category::new("Panel de herramientas", tools_panel_widgets));
         }
 
         // Create the Input category with all widgets
@@ -1443,10 +1443,10 @@ impl AppearanceSettingsPageView {
             Box::new(InputModeWidget::default()),
         ];
 
-        categories.push(Category::new("Input", category_widgets));
+        categories.push(Category::new("Entrada", category_widgets));
 
         categories.push(Category::new(
-            "Panes",
+            "Paneles",
             vec![
                 Box::new(DimInactivePanesWidget::default()),
                 Box::new(FocusFollowsMouseWidget::default()),
@@ -1460,7 +1460,7 @@ impl AppearanceSettingsPageView {
         if FeatureFlag::MinimalistUI.is_enabled() {
             block_settings_widgets.push(Box::new(ShowBlockDividersWidget::default()));
         }
-        categories.push(Category::new("Blocks", block_settings_widgets));
+        categories.push(Category::new("Bloques", block_settings_widgets));
 
         let font_settings = FontSettings::as_ref(ctx);
         let mut text_settings_widgets: Vec<Box<dyn SettingsWidget<View = Self>>> = vec![
@@ -1489,7 +1489,7 @@ impl AppearanceSettingsPageView {
             text_settings_widgets.push(Box::new(LigaturesWidget::default()));
         }
 
-        categories.push(Category::new("Text", text_settings_widgets));
+        categories.push(Category::new("Texto", text_settings_widgets));
 
         categories.push(Category::new(
             "Cursor",
@@ -1538,10 +1538,10 @@ impl AppearanceSettingsPageView {
             tab_settings_widgets.push(Box::new(DirectoryTabColorsWidget { add_picker }));
         }
 
-        categories.push(Category::new("Tabs", tab_settings_widgets));
+        categories.push(Category::new("Pestañas", tab_settings_widgets));
 
         categories.push(Category::new(
-            "Full-screen Apps",
+            "Aplicaciones a pantalla completa",
             vec![Box::new(AltScreenPaddingWidget::default())],
         ));
 
@@ -2817,7 +2817,7 @@ impl SettingsWidget for CreateCustomThemeWidget {
     type View = AppearanceSettingsPageView;
 
     fn search_terms(&self) -> &str {
-        "create theme create custom theme"
+        "crear tema crear tema personalizado"
     }
 
     fn render(
@@ -2830,7 +2830,7 @@ impl SettingsWidget for CreateCustomThemeWidget {
             appearance
                 .ui_builder()
                 .link(
-                    "Create your own custom theme".to_string(),
+                    "Crea tu propio tema personalizado".to_string(),
                     Some("https://docs.warp.dev/terminal/appearance/custom-themes".to_string()),
                     None,
                     self.mouse_state.clone(),
@@ -4194,7 +4194,7 @@ impl SettingsWidget for AIFontWidget {
         ai_font_row.add_child(
             appearance
                 .ui_builder()
-                .span("Match terminal".to_string())
+                .span("Igualar terminal".to_string())
                 .build()
                 .with_margin_left(2.)
                 .with_margin_right(16.)
@@ -4363,7 +4363,7 @@ impl SettingsWidget for TerminalFontWidget {
                             1.,
                             appearance
                                 .ui_builder()
-                                .span("View all available system fonts".to_string())
+                                .span("Ver todas las fuentes disponibles del sistema".to_string())
                                 .build()
                                 .with_margin_left(2.)
                                 .finish(),
@@ -4384,7 +4384,7 @@ impl SettingsWidget for TerminalFontWidget {
         font_weight.add_child(
             appearance
                 .ui_builder()
-                .label("Font weight".to_string())
+                .label("Grosor de fuente".to_string())
                 .with_style(UiComponentStyles {
                     font_size: Some(CONTENT_FONT_SIZE),
                     ..Default::default()
@@ -4407,7 +4407,7 @@ impl SettingsWidget for TerminalFontWidget {
         font_size.add_child(
             appearance
                 .ui_builder()
-                .label("Font size (px)".to_string())
+                .label("Tamaño de fuente (px)".to_string())
                 .with_style(UiComponentStyles {
                     margin: Some(Coords {
                         left: 2.,
@@ -4472,7 +4472,7 @@ impl SettingsWidget for NotebookFontSizeWidget {
     type View = AppearanceSettingsPageView;
 
     fn search_terms(&self) -> &str {
-        "text notebook font size"
+        "texto tamaño de fuente del cuaderno"
     }
 
     fn render(
@@ -4491,7 +4491,7 @@ impl SettingsWidget for NotebookFontSizeWidget {
                         Align::new(
                             appearance
                                 .ui_builder()
-                                .span("Notebook font size".to_string())
+                                .span("Tamaño de fuente del cuaderno".to_string())
                                 .build()
                                 .with_margin_right(16.)
                                 .finish(),
@@ -4517,7 +4517,7 @@ impl SettingsWidget for NotebookFontSizeWidget {
                 .with_child(
                     appearance
                         .ui_builder()
-                        .span("Match terminal".to_string())
+                        .span("Igualar terminal".to_string())
                         .build()
                         .with_margin_left(2.)
                         .with_margin_right(16.)
@@ -4726,7 +4726,7 @@ impl SettingsWidget for CursorTypeWidget {
                     .with_child(
                         appearance
                             .ui_builder()
-                            .span("Cursor type is disabled in Vim mode".to_string())
+                            .span("El tipo de cursor está deshabilitado en el modo Vim".to_string())
                             .build()
                             .finish(),
                     )

@@ -26,17 +26,17 @@ use crate::workspaces::user_workspaces::UserWorkspaces;
 
 const PROVIDER_BUTTON_ICON_SIZE: f32 = 14.;
 const PROVIDER_BUTTON_ICON_TEXT_GAP: f32 = 8.;
-const ERROR_APOLOGY_TEXT: &str = "I'm sorry, I couldn't complete that request.";
-const INTERNAL_WARP_ERROR: &str = "Internal Warp error.";
-pub const FAILED_OUTPUT_USAGE_NOTICE_TEXT: &str = "This response won't count towards your usage.";
-pub const OUT_OF_CREDITS_SUBSCRIBE_LABEL: &str = "Subscribe";
+const ERROR_APOLOGY_TEXT: &str = "Lo siento, no pude completar esa solicitud.";
+const INTERNAL_WARP_ERROR: &str = "Error interno de Warp.";
+pub const FAILED_OUTPUT_USAGE_NOTICE_TEXT: &str = "Esta respuesta no contará para tu uso.";
+pub const OUT_OF_CREDITS_SUBSCRIBE_LABEL: &str = "Suscribirse";
 /// Text to use as a label throughout the app for user interactions that will attach selected
 /// block(s) or text selections to a new AI query.
 pub static ATTACH_AS_AGENT_MODE_CONTEXT_TEXT: LazyLock<&'static str> =
-    LazyLock::new(|| "Attach as agent context");
+    LazyLock::new(|| "Adjuntar como contexto del agente");
 
 /// Label we use for the the command palette action to create a new local Warp Agent pane.
-pub static NEW_AGENT_PANE_LABEL: LazyLock<&'static str> = LazyLock::new(|| "New Agent Pane");
+pub static NEW_AGENT_PANE_LABEL: LazyLock<&'static str> = LazyLock::new(|| "Nuevo panel del agente");
 
 /// Claude/Anthropic brand color (official brand orange #D97757).
 /// Reference: https://github.com/anthropics/skills/blob/main/skills/brand-guidelines/SKILL.md
@@ -117,12 +117,12 @@ pub fn failed_output_presentation(
                     .format("%B %d")
                     .to_string();
                 FailedOutputPresentation::Message(format!(
-                    "{ERROR_APOLOGY_TEXT}\n\nYou've reached your credit limit. Your credit limit resets on {formatted_next_refresh_time}.",
+                    "{ERROR_APOLOGY_TEXT}\n\nHas alcanzado tu límite de créditos. Tu límite de créditos se restablece el {formatted_next_refresh_time}.",
                 ))
             }
         }
         RenderableAIError::ServerOverloaded => FailedOutputPresentation::Message(
-            "Warp is currently overloaded. Please try again later.".to_string(),
+            "Warp está actualmente sobrecargado. Por favor, intenta de nuevo más tarde.".to_string(),
         ),
         RenderableAIError::InternalWarpError => FailedOutputPresentation::Message(format!(
             "{ERROR_APOLOGY_TEXT}\n\n{INTERNAL_WARP_ERROR}"
@@ -136,25 +136,25 @@ pub fn failed_output_presentation(
             provider,
             model_name,
         } => FailedOutputPresentation::InvalidApiKey {
-            title: "Provided API key is not valid",
+            title: "La clave de API proporcionada no es válida",
             detail: format!(
-                "Failed to authenticate with {provider} when using {model_name}. \
-                 Double-check that your API key is correct."
+                "Error al autenticar con {provider} al usar {model_name}. \
+                 Verifica que tu clave de API sea correcta."
             ),
         },
         RenderableAIError::AwsBedrockCredentialsExpiredOrInvalid { model_name } => {
             FailedOutputPresentation::AwsBedrockCredentialsExpiredOrInvalid {
                 fallback_message: format!(
-                    "{ERROR_APOLOGY_TEXT}\n\nAWS credentials expired or missing for {model_name}. \
-                     Please refresh your AWS credentials."
+                    "{ERROR_APOLOGY_TEXT}\n\nCredenciales de AWS expiradas o faltantes para {model_name}. \
+                     Por favor actualiza tus credenciales de AWS."
                 ),
             }
         }
         RenderableAIError::GeminiEnterpriseCredentialsExpiredOrInvalid => {
             FailedOutputPresentation::GeminiEnterpriseCredentialsExpiredOrInvalid {
                 fallback_message: format!(
-                    "{ERROR_APOLOGY_TEXT}\n\nGemini Enterprise credentials expired or invalid.\n\n\
-                     Warp couldn't authenticate with Google Cloud. Refresh your Gemini Enterprise credentials, then retry the request."
+                    "{ERROR_APOLOGY_TEXT}\n\nCredenciales de Gemini Enterprise expiradas o no válidas.\n\n\
+                     Warp no pudo autenticarse con Google Cloud. Actualiza tus credenciales de Gemini Enterprise y vuelve a intentar la solicitud."
                 ),
             }
         }
@@ -221,7 +221,7 @@ pub fn render_ai_follow_up_icon(
             let tooltip_background = appearance.theme().tooltip_background();
             let tool_tip = appearance
                 .ui_builder()
-                .tool_tip("Follow up with existing conversation".to_owned())
+                .tool_tip("Continuar con la conversación existente".to_owned())
                 .with_style(UiComponentStyles {
                     font_size: Some(12.),
                     background: Some(warpui::elements::Fill::Solid(tooltip_background)),
@@ -290,12 +290,12 @@ pub fn format_credits(credits: f32) -> String {
     if credits.fract() < 0.1 {
         let whole = credits.trunc() as i32;
         if whole == 1 {
-            format!("{whole} credit")
+            format!("{whole} crédito")
         } else {
-            format!("{whole} credits")
+            format!("{whole} créditos")
         }
     } else {
-        format!("{credits:.1} credits")
+        format!("{credits:.1} créditos")
     }
 }
 
@@ -357,19 +357,19 @@ pub fn usage_label(
 ) -> String {
     let unit = effective_usage_unit(unit, cost_in_cents);
     let base = match (kind, unit) {
-        (UsageLabelKind::DetailsPanel, UsageDisplayUnit::Credits) => "Credits used",
-        (UsageLabelKind::DetailsPanel, UsageDisplayUnit::Dollars) => "Usage",
+        (UsageLabelKind::DetailsPanel, UsageDisplayUnit::Credits) => "Créditos usados",
+        (UsageLabelKind::DetailsPanel, UsageDisplayUnit::Dollars) => "Uso",
         (
             UsageLabelKind::LastResponse | UsageLabelKind::Total | UsageLabelKind::Plain,
             UsageDisplayUnit::Credits,
-        ) => "Credits spent",
+        ) => "Créditos gastados",
         (
             UsageLabelKind::LastResponse | UsageLabelKind::Total | UsageLabelKind::Plain,
             UsageDisplayUnit::Dollars,
-        ) => "Usage charged",
+        ) => "Uso cobrado",
     };
     let suffix = match kind {
-        UsageLabelKind::LastResponse => " (last response)",
+        UsageLabelKind::LastResponse => " (última respuesta)",
         UsageLabelKind::Total => " (total)",
         UsageLabelKind::Plain | UsageLabelKind::DetailsPanel => "",
     };

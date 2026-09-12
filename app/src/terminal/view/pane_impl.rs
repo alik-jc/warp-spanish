@@ -665,7 +665,7 @@ impl BackingView for TerminalView {
                 let has_session_link =
                     Manager::as_ref(ctx).has_session_link(&self.view_id, shared_session_status);
                 items.push(
-                    MenuItemFields::new("Copy link")
+                    MenuItemFields::new("Copiar enlace")
                         .with_on_select_action(TerminalAction::CopySharedSessionLink { source })
                         .with_disabled(!has_session_link)
                         .into_item(),
@@ -674,7 +674,7 @@ impl BackingView for TerminalView {
 
             if shared_session_status.is_sharer() {
                 items.push(
-                    MenuItemFields::new("Stop sharing session")
+                    MenuItemFields::new("Dejar de compartir sesión")
                         .with_on_select_action(TerminalAction::StopSharingCurrentSession { source })
                         .into_item(),
                 );
@@ -686,7 +686,7 @@ impl BackingView for TerminalView {
                     == UserAppInstallStatus::Detected
             {
                 items.push(
-                    MenuItemFields::new("Open on Desktop")
+                    MenuItemFields::new("Abrir en la app de escritorio")
                         .with_on_select_action(TerminalAction::OpenSharedSessionOnDesktop {
                             source,
                         })
@@ -697,7 +697,7 @@ impl BackingView for TerminalView {
             && ContextFlag::CreateSharedSession.is_enabled()
         {
             items.push(
-                MenuItemFields::new("Share session")
+                MenuItemFields::new("Compartir sesión")
                     .with_on_select_action(TerminalAction::OpenShareSessionModal { source })
                     .into_item(),
             );
